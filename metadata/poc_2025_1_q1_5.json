@@ -1,0 +1,43 @@
+{
+  "round": "2025-1회",
+  "source": "image",
+  "video_id": "8VUPu_RSkXE",
+  "note": "PoC 5문항. 확정은 보기 체크/밑줄이 분명한 프레임만. 2번은 여러 보기 밑줄이라 미확정.",
+  "answers": {
+    "1": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "frame": "frame_007.jpg",
+      "why": "옳지 않은 것. ④ 큰창에 의해 채광 방해 밑줄"
+    },
+    "2": {
+      "answer": null,
+      "status": "미확정",
+      "source": null,
+      "frame": "frame_012.jpg",
+      "why": "①② 밑줄과 ④ 낙서가 섞여 단일 표시로 못 봄"
+    },
+    "3": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "frame": "frame_017.jpg",
+      "why": "옳지 않은 것. ④ 체크"
+    },
+    "4": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "frame": "frame_019.jpg",
+      "why": "가장 알맞은 것. ④ 체크"
+    },
+    "5": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "frame": "frame_022.jpg",
+      "why": "옳지 않은 것. ③ 리빙다이닝키친 체크"
+    }
+  }
+}

@@ -458,8 +458,14 @@
       "exam_date": "2026-01-21",
       "expected_n": 60,
       "restore_scope": "new_only",
-      "status": "blocked_login",
-      "note": "성안당 자료실 비회원 다운로드 차단. raw/sungandang/에 PDF 드롭 필요"
+      "status": "catalog",
+      "note": "성안당 자료실 PDF. 1~57 교재대조, 58~60 신규 전문. 정답 미확정",
+      "recovered": 60,
+      "new_questions": [
+        58,
+        59,
+        60
+      ]
     },
     {
       "id": "2026-2회",
@@ -472,8 +478,16 @@
       "exam_date": "2026-04-07",
       "expected_n": 60,
       "restore_scope": "new_only",
-      "status": "blocked_login",
-      "note": "성안당 자료실 비회원 다운로드 차단. raw/sungandang/에 PDF 드롭 필요"
+      "status": "catalog",
+      "note": "성안당 자료실 PDF. 1~55 교재대조, 56~60 신규 전문. 정답 미확정",
+      "recovered": 60,
+      "new_questions": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
     },
     {
       "id": "2026-3회",
@@ -485,8 +499,18 @@
       "pdf_download_id": "3779",
       "expected_n": 60,
       "restore_scope": "new_only",
-      "status": "blocked_login",
-      "note": "성안당 자료실 비회원 다운로드 차단. raw/sungandang/에 PDF 드롭 필요"
+      "status": "catalog",
+      "note": "성안당 자료실 PDF. 1~53 교재대조, 54~60 신규 전문. 정답 미확정",
+      "recovered": 60,
+      "new_questions": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
     }
   ]
 }

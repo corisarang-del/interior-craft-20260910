@@ -38,6 +38,19 @@ def render_round_note(round_id, questions, source="youtube", zettel_id=None):
         if q.get("image_confirmed") and q.get("file"):
             lines.append(question_image_md(round_id, n))
             lines.append("")
+        if q.get("kind") == "book_map":
+            bits = []
+            if q.get("page"):
+                bits.append(f"교재 {q['page']}쪽")
+            if q.get("book_num"):
+                bits.append(f"{q['book_num']}번")
+            topic = q.get("topic") or ""
+            extra = f" ({', '.join(bits)})" if bits else ""
+            lines.append(f"- {topic}{extra}")
+            lines.append("")
+        elif q.get("kind") == "new" and q.get("text"):
+            lines.append(q["text"].strip())
+            lines.append("")
         ans = q.get("answer")
         if ans:
             lines.append(f"**정답: {ans}**")

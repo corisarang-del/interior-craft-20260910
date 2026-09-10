@@ -37,16 +37,17 @@ def main(json_path):
             "status": row.get("status") or "미확정",
             "source": row.get("source"),
         }
-        frame = row.get("frame")
-        if frames_dir and frame and row.get("status") == "확정":
-            src = os.path.join(frames_dir, frame)
+        # 정답 표시 프레임은 낙서가 보기 글자를 가린다. 노트 이미지는
+        # 첫 문제 화면을 유지하고, 표시 프레임은 metadata에만 둔다.
+        if data.get("replace_note_image") and frames_dir and row.get("frame") and row.get("status") == "확정":
+            src = os.path.join(frames_dir, row["frame"])
             if os.path.isfile(src):
                 dest_name = f"q{int(num):02d}.jpg"
                 upscale(src, os.path.join(ROOT, "out/images", rid, dest_name))
                 vault_img = os.path.join(VAULT, "기출문제", "이미지", rid, dest_name)
                 os.makedirs(os.path.dirname(vault_img), exist_ok=True)
                 Image.open(os.path.join(ROOT, "out/images", rid, dest_name)).save(vault_img, quality=90)
-                print("image", dest_name, "<-", frame)
+                print("image", dest_name, "<-", row["frame"])
     for path in note_paths:
         if not os.path.isfile(path):
             print("missing note", path)

@@ -2,7 +2,8 @@
   "round": "2025-1회",
   "source": "image",
   "video_id": "8VUPu_RSkXE",
-  "note": "PoC 5문항. 확정은 보기 체크/밑줄이 분명한 프레임만. 2번은 여러 보기 밑줄이라 미확정.",
+  "note": "PoC 5문항. 확정은 보기 체크/밑줄이 분명한 프레임만. 2번은 여러 보기 밑줄이라 미확정. 노트 이미지는 첫 문제 화면 유지(replace_note_image false).",
+  "replace_note_image": false,
   "answers": {
     "1": {
       "answer": "④",

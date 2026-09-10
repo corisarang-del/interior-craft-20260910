@@ -50,6 +50,9 @@ def process_video(vid, existing_rows=None):
     for r in rows:
         r["num"] = parse_num(r.get("text") or "", NUM_RANGE)
         r.setdefault("ts", ts_map.get(r["file"], 0))
+        r["src_file"] = r["file"]
+        r["vid"] = vid
+        r["frames_dir"] = frames_dir
     return rows, frames_dir
 
 
@@ -66,7 +69,15 @@ def merge_rows(parts):
     return merged
 
 
-def build_questions(rows, frames_dir):
+def _row_path(r):
+    d = r.get("frames_dir")
+    name = r.get("src_file") or r.get("file")
+    if d and name:
+        return os.path.join(d, name)
+    return None
+
+
+def build_questions(rows, frames_dir=None):
     badges = [(r["ts"], r["num"]) for r in rows if r.get("num")]
     starts = detect_first_starts(badges, NUM_RANGE)
     have = {n for _, n in starts}
@@ -79,8 +90,8 @@ def build_questions(rows, frames_dir):
         for r in rows:
             if not (lo_ts < r["ts"] < hi_ts) or r.get("num"):
                 continue
-            path = os.path.join(frames_dir, r["file"])
-            if not os.path.isfile(path):
+            path = _row_path(r)
+            if not path or not os.path.isfile(path):
                 continue
             got = read_left_number(path, NUM_RANGE)
             if got == n:
@@ -90,8 +101,9 @@ def build_questions(rows, frames_dir):
     starts = detect_first_starts(badges, NUM_RANGE)
     groups = group_frames(rows)
     for g in groups:
-        g["file"] = g["members"][0]["file"]
-        g["ts"] = g["members"][0].get("ts", 0)
+        first = g["members"][0]
+        g["file"] = _row_path(first) or first["file"]
+        g["ts"] = first.get("ts", 0)
     q = assign_questions(groups, starts, margin=90)
     return mark_duplicate_stems(q), starts
 
@@ -104,12 +116,14 @@ def write_round(round_id, questions, frames_dirs, answers, source="youtube"):
     os.makedirs(out_img, exist_ok=True)
     copied = []
     for k in keys:
-        src = None
-        for d in frames_dirs:
-            p = os.path.join(d, questions[k]["file"])
-            if os.path.isfile(p):
-                src = p
-                break
+        src = questions[k].get("file")
+        if src and not os.path.isfile(src):
+            src = None
+            for d in frames_dirs:
+                p = os.path.join(d, os.path.basename(questions[k].get("file") or ""))
+                if os.path.isfile(p):
+                    src = p
+                    break
         dest = os.path.join(out_img, f"q{int(k):02d}.jpg")
         if questions[k].get("image_confirmed") and src:
             upscale(src, dest)

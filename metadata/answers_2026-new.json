@@ -1,0 +1,24 @@
+{
+  "rounds": {
+    "2026-1회": {
+      "58": {"answer": "③", "status": "추론", "source": "solve", "why": "열전도율 철>콘크리트>소나무>코르크 D-B-A-C"},
+      "60": {"answer": "①", "status": "추론", "source": "solve", "why": "구조체면 표기 통상 ▼"}
+    },
+    "2026-2회": {
+      "56": {"answer": "②", "status": "추론", "source": "solve", "why": "창호 수장재는 내화·내구성이 커야 함"},
+      "57": {"answer": "①", "status": "추론", "source": "solve", "why": "목재 강도는 결 방향에 따라 다름"},
+      "58": {"answer": "④", "status": "추론", "source": "solve", "why": "목재는 습기에 신축함"},
+      "59": {"answer": "③", "status": "추론", "source": "solve", "why": "조립률"},
+      "60": {"answer": "①", "status": "추론", "source": "solve", "why": "인장철근 증가는 전단 보강이 아님"}
+    },
+    "2026-3회": {
+      "54": {"answer": "③", "status": "추론", "source": "solve", "why": "수평 날개 베니션 블라인드"},
+      "55": {"answer": "④", "status": "추론", "source": "solve", "why": "A는 면적, 용적은 V"},
+      "56": {"answer": "③", "status": "추론", "source": "solve", "why": "45도 사선=사행배치"},
+      "57": {"answer": "①", "status": "추론", "source": "solve", "why": "원룸은 접객공간을 최소화"},
+      "58": {"answer": "①", "status": "추론", "source": "solve", "why": "보행자 동선+휴식=몰"},
+      "59": {"answer": "④", "status": "추론", "source": "solve", "why": "토대는 기둥과 같거나 더 크게"},
+      "60": {"answer": "①", "status": "추론", "source": "solve", "why": "마감면 표기 ▼"}
+    }
+  }
+}

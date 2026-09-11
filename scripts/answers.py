@@ -17,15 +17,17 @@ def normalize_choice(raw):
     s = str(raw).strip()
     if s in CIRCLED.values():
         return s
-    if s.isdigit() and int(s) in CIRCLED:
+    if s.isdigit() and s.isascii() and int(s) in CIRCLED:
         return CIRCLED[int(s)]
-    m = re.search(r"[1-4①-④]", s)
-    if not m:
-        return None
-    ch = m.group(0)
-    if ch.isdigit():
-        return CIRCLED[int(ch)]
-    return ch
+    found = re.findall(r"[①②③④]|[1-4]", s)
+    uniq = []
+    for ch in found:
+        mark = CIRCLED[int(ch)] if ch in "1234" else ch
+        if mark not in uniq:
+            uniq.append(mark)
+    if len(uniq) == 1:
+        return uniq[0]
+    return None
 
 
 def extract_answers(text):

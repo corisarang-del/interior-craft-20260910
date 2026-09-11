@@ -1,0 +1,10 @@
+{
+  "round": "2021-3회",
+  "replace_note_image": false,
+  "answers": {
+    "1": {"answer": "①", "status": "추론", "source": "solve", "why": "가사노동 동선은 짧게. 길게라는 ①이 틀림"},
+    "2": {"answer": "③", "status": "확정", "source": "image", "why": "천장 낮추면 아늑 ③ 체크"},
+    "3": {"answer": "③", "status": "확정", "source": "image", "why": "VMD에 SP 없음. 자막"},
+    "5": {"answer": "④", "status": "확정", "source": "image", "why": "인체스케일 ④ 체크"}
+  }
+}

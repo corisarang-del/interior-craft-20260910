@@ -1,0 +1,8 @@
+{
+  "round": "2022-1회",
+  "replace_note_image": false,
+  "answers": {
+    "1": {"answer": "③", "status": "확정", "source": "image", "why": "조명설계 최우선=소요조도 결정 ③ 밑줄"},
+    "2": {"answer": "②", "status": "확정", "source": "image", "why": "개구부 단열 위해 크게라는 ②가 틀림"}
+  }
+}

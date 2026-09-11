@@ -1,0 +1,14 @@
+{
+  "round": "2021-1회",
+  "replace_note_image": false,
+  "answers": {
+    "1": {"answer": "③", "status": "추론", "source": "solve", "why": "파사드 아닌 것=쇼케이스"},
+    "2": {"answer": "②", "status": "확정", "source": "image", "why": "양쪽 벽 마주보는 작업대=병렬형"},
+    "3": {"answer": "③", "status": "확정", "source": "image", "why": "LDK는 소규모. 대규모라는 ③이 틀림"},
+    "4": {"answer": "②", "status": "확정", "source": "image", "why": "판매동선은 고객동선과 교차. 일치라는 ②가 틀림"},
+    "5": {"answer": "②", "status": "확정", "source": "image", "why": "원룸은 활동·취침 구분. 구분하지 않는다는 ②가 틀림"},
+    "6": {"answer": "④", "status": "확정", "source": "image", "why": "AIDMA의 M은 Memory. Money ④가 틀림"},
+    "7": {"answer": "②", "status": "확정", "source": "image", "why": "출입 적고 오래 머무름=폐쇄형 ② 체크"},
+    "8": {"answer": "③", "status": "확정", "source": "image", "why": "보행동선+휴식=몰"}
+  }
+}

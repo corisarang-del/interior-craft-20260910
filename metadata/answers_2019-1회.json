@@ -1,0 +1,30 @@
+{
+  "round": "2019-1회",
+  "replace_note_image": false,
+  "answers": {
+    "1": {"answer": "③", "status": "추론", "source": "solve", "why": "AIDMA에 Design 없음"},
+    "4": {"answer": "③", "status": "추론", "source": "solve", "why": "건축계 가구 아닌 것=파티션"},
+    "5": {"answer": "①", "status": "확정", "source": "image", "why": "파사드 ① 체크"},
+    "6": {"answer": "③", "status": "확정", "source": "image", "why": "1인용 2개=트윈 ③ 체크"},
+    "7": {"answer": "④", "status": "확정", "source": "image", "why": "실내계획 최우선 인체스케일 ④ 체크"},
+    "8": {"answer": "①", "status": "확정", "source": "image", "why": "테라스하우스"},
+    "9": {"answer": "④", "status": "확정", "source": "image", "why": "가까운 유사요소=근접성"},
+    "10": {"answer": "④", "status": "확정", "source": "image", "why": "천장은 변화 현저. 고정적이라는 ④가 틀림"},
+    "11": {"answer": "①", "status": "추론", "source": "solve", "why": "강철파이프 의자=바실리"},
+    "12": {"answer": "③", "status": "추론", "source": "solve", "why": "비대칭 균형 연결 틀린 것"},
+    "13": {"answer": "①", "status": "추론", "source": "solve", "why": "결로방지=환기·난방·단열. 전도는 방법이 아님"},
+    "15": {"answer": "④", "status": "추론", "source": "solve", "why": "대수선·일부증축=리모델링"},
+    "17": {"answer": "①", "status": "확정", "source": "image", "why": "열전도율 W/m·K"},
+    "19": {"answer": "①", "status": "확정", "source": "image", "why": "TAL 조명"},
+    "20": {"answer": "③", "status": "확정", "source": "image", "why": "납 비중 크고 연질 ③ 체크"},
+    "31": {"answer": "①", "status": "추론", "source": "solve", "why": "화성암 아닌 것=대리석(변성암)"},
+    "32": {"answer": "①", "status": "확정", "source": "image", "why": "처마 하중=공포 ① 체크"},
+    "36": {"answer": "③", "status": "확정", "source": "image", "why": "주각부 아닌 것=거싯플레이트"},
+    "40": {"answer": "①", "status": "확정", "source": "image", "why": "혼화재=플라이애시 ① 체크"},
+    "46": {"answer": "④", "status": "확정", "source": "image", "why": "치수 ㄱㄴ 모두 틀림 ④"},
+    "50": {"answer": "④", "status": "확정", "source": "image", "why": "멤브레인 아닌 것=강활성 방수제 ④ 체크"},
+    "55": {"answer": "②", "status": "확정", "source": "image", "why": "수평면은 눈높이와 평행 아님 ②"},
+    "58": {"answer": "④", "status": "확정", "source": "image", "why": "조명은 좌측상단이 유리. 우측상단 ④가 틀림"},
+    "60": {"answer": "②", "status": "확정", "source": "image", "why": "강재거푸집 재사용 가능. 불가능하다는 ②가 틀림"}
+  }
+}

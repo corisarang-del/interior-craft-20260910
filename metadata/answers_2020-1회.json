@@ -1,0 +1,14 @@
+{
+  "round": "2020-1회",
+  "replace_note_image": false,
+  "answers": {
+    "1": {"answer": "③", "status": "추론", "source": "solve", "why": "상점계획과 먼 것=상품배치방식"},
+    "2": {"answer": "①", "status": "확정", "source": "image", "why": "힘의 강약 초점=강조"},
+    "4": {"answer": "③", "status": "확정", "source": "image", "why": "수평 블라인드=베니션"},
+    "7": {"answer": "②", "status": "추론", "source": "solve", "why": "문 위치와 가장 먼 것=가구를 배치한 공간"},
+    "10": {"answer": "②", "status": "확정", "source": "image", "why": "피보나치 21 다음 34"},
+    "31": {"answer": "②", "status": "확정", "source": "image", "why": "H형강 7은 웨브 두께"},
+    "40": {"answer": "④", "status": "확정", "source": "image", "why": "동바리마루 구성 아닌 것=걸레받이"},
+    "60": {"answer": "④", "status": "확정", "source": "image", "why": "플레이트보 아닌 것=베이스플레이트"}
+  }
+}

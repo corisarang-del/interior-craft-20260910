@@ -1,0 +1,18 @@
+{
+  "round": "2023-1회",
+  "replace_note_image": false,
+  "answers": {
+    "1": {"answer": "④", "status": "확정", "source": "image", "why": "협소 매장 동선 빠른 진열=직렬형 ④ 체크"},
+    "3": {"answer": "②", "status": "확정", "source": "image", "why": "균형 원리 옳지 않은 것 ② 체크"},
+    "4": {"answer": "③", "status": "확정", "source": "image", "why": "사회공간=식당 거실 응접실"},
+    "6": {"answer": "①", "status": "추론", "source": "solve", "why": "좁은 면적 소규모 부엌=일자형"},
+    "7": {"answer": "②", "status": "확정", "source": "image", "why": "전개도=실 내부 마감 명시"},
+    "10": {"answer": "②", "status": "확정", "source": "image", "why": "평면도 절단 높이 1.2m. 자막"},
+    "12": {"answer": "④", "status": "확정", "source": "image", "why": "투명 수정 용이=트레이싱지 ④ 체크"},
+    "15": {"answer": "①", "status": "확정", "source": "image", "why": "쉐이드 감아올림=롤블라인드 ① 체크"},
+    "31": {"answer": "③", "status": "확정", "source": "image", "why": "개수-준비-조리-가열-배선 ③ 체크"},
+    "32": {"answer": "③", "status": "확정", "source": "image", "why": "CO2 증가 시 산소 감소 ③ 체크"},
+    "50": {"answer": "②", "status": "확정", "source": "image", "why": "분말도=블레인법 ② 체크"},
+    "60": {"answer": "①", "status": "확정", "source": "image", "why": "가장 단단한 연필=3H ① 체크"}
+  }
+}

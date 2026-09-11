@@ -1,0 +1,10 @@
+{
+  "round": "2024-3회",
+  "replace_note_image": false,
+  "answers": {
+    "1": {"answer": "①", "status": "확정", "source": "image", "why": "대중적 저속=키치 ① 체크"},
+    "2": {"answer": "③", "status": "추론", "source": "solve", "why": "AIDMA에 Design 없음"},
+    "31": {"answer": "④", "status": "추론", "source": "solve", "why": "잔향은 실의 용적과 관련.  unrelated ④가 틀림일 수 있음. 회의실 잔향 긴 것은 바람직하지 않음=옳지 않은 설명 ④"},
+    "60": {"answer": "②", "status": "확정", "source": "image", "why": "세장 기둥 좌굴 ② 체크"}
+  }
+}

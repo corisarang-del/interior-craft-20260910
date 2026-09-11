@@ -1,0 +1,28 @@
+{
+  "round": "2022-3회",
+  "replace_note_image": false,
+  "answers": {
+    "1": {"answer": "④", "status": "추론", "source": "solve", "why": "거실이 각 실의 통로 역할은 단점. 옳지 않은 설명"},
+    "2": {"answer": "②", "status": "확정", "source": "image", "why": "전혀 다른 요소 강조=대비"},
+    "3": {"answer": "②", "status": "확정", "source": "image", "why": "판매원 동선은 짧게. 길어도 저장 안 한다는 ②가 틀림"},
+    "4": {"answer": "③", "status": "확정", "source": "image", "why": "퀸 1500×2000"},
+    "5": {"answer": "③", "status": "확정", "source": "image", "why": "측창이 천창보다 3배 많다는 ③이 틀림"},
+    "7": {"answer": "②", "status": "추론", "source": "solve", "why": "중복도형은 프라이버시가 나쁨. 좋다는 ②가 틀림"},
+    "8": {"answer": "①", "status": "추론", "source": "solve", "why": "건축화조명이 에너지 절약이라는 ①이 틀림"},
+    "9": {"answer": "④", "status": "확정", "source": "image", "why": "유니버설=융통성 극대화 공간"},
+    "10": {"answer": "④", "status": "확정", "source": "image", "why": "3차원 입체감=볼륨과 매스. 자막 4번"},
+    "11": {"answer": "③", "status": "확정", "source": "image", "why": "비대칭 균형-눈의 결정체 연결이 틀림"},
+    "13": {"answer": "①", "status": "확정", "source": "image", "why": "곡선=명랑·경쾌. 명료 명등은 틀림 ① 체크"},
+    "15": {"answer": "④", "status": "확정", "source": "image", "why": "수택은 사랑채 안채 바깥채. 자막 창고"},
+    "18": {"answer": "①", "status": "확정", "source": "image", "why": "조건설정 조사 중 미술관 전시벽면은 틀림 ① 체크"},
+    "24": {"answer": "④", "status": "확정", "source": "image", "why": "부드러운 질감이 시각적 중량감 크다는 ④가 틀림"},
+    "31": {"answer": "③", "status": "확정", "source": "image", "why": "웨브 철판+플랜지 ㄱ형강 리벳=판보"},
+    "32": {"answer": "①", "status": "확정", "source": "image", "why": "샤모트=가소성 조절"},
+    "40": {"answer": "②", "status": "확정", "source": "image", "why": "석고보드 내수성 우수라는 ②가 틀림"},
+    "45": {"answer": "②", "status": "추론", "source": "solve", "why": "격자 무늬 종이=방안지"},
+    "50": {"answer": "③", "status": "확정", "source": "image", "why": "자막 정답 3번 C,E,F"},
+    "56": {"answer": "④", "status": "확정", "source": "image", "why": "보조선 진하게라는 ④가 틀림. 가이드선"},
+    "59": {"answer": "③", "status": "확정", "source": "image", "why": "접이식 문 기호. 자막"},
+    "60": {"answer": "①", "status": "확정", "source": "image", "why": "단면 사선=목재 치장재"}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "round": "2023-3회",
+  "replace_note_image": false,
+  "answers": {
+    "2": {"answer": "②", "status": "확정", "source": "image", "why": "데드스페이스 줄이기와 먼 것=기능별 독립 실 계획 ② 체크"},
+    "4": {"answer": "②", "status": "확정", "source": "image", "why": "균형 원리 옳지 않은 것 ② 체크"},
+    "5": {"answer": "④", "status": "추론", "source": "solve", "why": "펜로즈 삼각형=다의도형 착시"},
+    "7": {"answer": "①", "status": "확정", "source": "image", "why": "실내디자인과 먼 것=순수예술 ① 체크"},
+    "31": {"answer": "③", "status": "확정", "source": "image", "why": "화성암 아닌 것=응회암(퇴적) ③ 체크"},
+    "60": {"answer": "①", "status": "확정", "source": "image", "why": "SRC=철골철근콘크리트"}
+  }
+}

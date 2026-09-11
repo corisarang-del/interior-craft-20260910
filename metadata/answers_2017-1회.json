@@ -176,6 +176,42 @@
       "source": "solve",
       "why": "심재는 변재보다 비중·강도·내구성은 크고 신축성은 작다.",
       "frame": "frame_146.jpg"
+    },
+    "9": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "루빈의 항아리=형과 배경"
+    },
+    "12": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "퀸 1500x2000 표"
+    },
+    "13": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "구조설비 계획은 실내디자이너 역할과 멂"
+    },
+    "16": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "모듈러=르 꼬르뷔지에"
+    },
+    "21": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "휘도 cd/m2"
+    },
+    "58": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "움직이는 흐름=동선도"
     }
   },
   "raw": [

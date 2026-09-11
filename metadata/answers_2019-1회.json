@@ -2,31 +2,335 @@
   "round": "2019-1회",
   "replace_note_image": false,
   "answers": {
-    "1": {"answer": "③", "status": "추론", "source": "solve", "why": "AIDMA에 Design 없음"},
-    "3": {"answer": "②", "status": "추론", "source": "solve", "why": "사선 느낌과 먼 것=안정감"},
-    "4": {"answer": "③", "status": "추론", "source": "solve", "why": "건축계 가구 아닌 것=파티션"},
-    "5": {"answer": "①", "status": "확정", "source": "image", "why": "파사드 ① 체크"},
-    "6": {"answer": "③", "status": "확정", "source": "image", "why": "1인용 2개=트윈 ③ 체크"},
-    "7": {"answer": "④", "status": "확정", "source": "image", "why": "실내계획 최우선 인체스케일 ④ 체크"},
-    "8": {"answer": "①", "status": "확정", "source": "image", "why": "테라스하우스"},
-    "9": {"answer": "④", "status": "확정", "source": "image", "why": "가까운 유사요소=근접성"},
-    "10": {"answer": "④", "status": "확정", "source": "image", "why": "천장은 변화 현저. 고정적이라는 ④가 틀림"},
-    "11": {"answer": "①", "status": "추론", "source": "solve", "why": "강철파이프 의자=바실리"},
-    "12": {"answer": "③", "status": "추론", "source": "solve", "why": "비대칭 균형 연결 틀린 것"},
-    "13": {"answer": "①", "status": "추론", "source": "solve", "why": "결로방지=환기·난방·단열. 전도는 방법이 아님"},
-    "15": {"answer": "④", "status": "추론", "source": "solve", "why": "대수선·일부증축=리모델링"},
-    "17": {"answer": "①", "status": "확정", "source": "image", "why": "열전도율 W/m·K"},
-    "19": {"answer": "①", "status": "확정", "source": "image", "why": "TAL 조명"},
-    "20": {"answer": "③", "status": "확정", "source": "image", "why": "납 비중 크고 연질 ③ 체크"},
-    "31": {"answer": "①", "status": "추론", "source": "solve", "why": "화성암 아닌 것=대리석(변성암)"},
-    "32": {"answer": "①", "status": "확정", "source": "image", "why": "처마 하중=공포 ① 체크"},
-    "36": {"answer": "③", "status": "확정", "source": "image", "why": "주각부 아닌 것=거싯플레이트"},
-    "40": {"answer": "①", "status": "확정", "source": "image", "why": "혼화재=플라이애시 ① 체크"},
-    "46": {"answer": "④", "status": "확정", "source": "image", "why": "치수 ㄱㄴ 모두 틀림 ④"},
-    "50": {"answer": "④", "status": "확정", "source": "image", "why": "멤브레인 아닌 것=강활성 방수제 ④ 체크"},
-    "55": {"answer": "②", "status": "확정", "source": "image", "why": "수평면은 눈높이와 평행 아님 ②"},
-    "58": {"answer": "④", "status": "확정", "source": "image", "why": "조명은 좌측상단이 유리. 우측상단 ④가 틀림"},
-    "60": {"answer": "②", "status": "확정", "source": "image", "why": "강재거푸집 재사용 가능. 불가능하다는 ②가 틀림"},
-    "33": {"answer": "④", "status": "확정", "source": "image", "why": "슬럼프=반죽질기 ④"}
+    "1": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "AIDMA에 Design 없음"
+    },
+    "3": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "사선 느낌과 먼 것=안정감"
+    },
+    "4": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "건축계 가구 아닌 것=파티션"
+    },
+    "5": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "파사드 ① 체크"
+    },
+    "6": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "1인용 2개=트윈 ③ 체크"
+    },
+    "7": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "실내계획 최우선 인체스케일 ④ 체크"
+    },
+    "8": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "테라스하우스"
+    },
+    "9": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "가까운 유사요소=근접성"
+    },
+    "10": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "천장은 변화 현저. 고정적이라는 ④가 틀림"
+    },
+    "11": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "강철파이프 의자=바실리"
+    },
+    "12": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "비대칭 균형 연결 틀린 것"
+    },
+    "13": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "결로방지=환기·난방·단열. 전도는 방법이 아님"
+    },
+    "15": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "대수선·일부증축=리모델링"
+    },
+    "17": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "열전도율 W/m·K"
+    },
+    "19": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "TAL 조명"
+    },
+    "20": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "납 비중 크고 연질 ③ 체크"
+    },
+    "31": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "화성암 아닌 것=대리석(변성암)"
+    },
+    "32": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "처마 하중=공포 ① 체크"
+    },
+    "36": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "주각부 아닌 것=거싯플레이트"
+    },
+    "40": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "혼화재=플라이애시 ① 체크"
+    },
+    "46": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "치수 ㄱㄴ 모두 틀림 ④"
+    },
+    "50": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "멤브레인 아닌 것=강활성 방수제 ④ 체크"
+    },
+    "55": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "수평면은 눈높이와 평행 아님 ②"
+    },
+    "58": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "조명은 좌측상단이 유리. 우측상단 ④가 틀림"
+    },
+    "60": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "강재거푸집 재사용 가능. 불가능하다는 ②가 틀림"
+    },
+    "33": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "슬럼프=반죽질기 ④"
+    },
+    "14": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "전단저항 끼움=듀벨"
+    },
+    "18": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "패턴이 형태를 보완. 형태가 패턴을 보완한다는 ③이 틀림"
+    },
+    "21": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "섬유평행 목재 강도 최대=인장"
+    },
+    "22": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "톱밥혼합 경량=다공벽돌"
+    },
+    "23": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "완전침수는 공기차단으로 부패 어려움"
+    },
+    "24": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "AE감수제는 응결촉진 아님"
+    },
+    "25": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "W/C와 가장 깊은 관계=콘크리트 강도"
+    },
+    "26": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "거푸집 순응 다짐=워커빌리티"
+    },
+    "27": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "불림은 공기중 냉각. 내부에서 서냉은 틀림"
+    },
+    "28": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "MDF 고정철물 재시공 어렵다. ③이 틀림"
+    },
+    "29": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "아크릴수지는 열가소성"
+    },
+    "34": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "압연은 열처리 아님 밑줄"
+    },
+    "35": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "2층 이상 기둥 단일재=통재기둥"
+    },
+    "38": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "두꺼운 바닥판=플랫슬래브=무량판"
+    },
+    "39": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "PSC가 진동이 없다는 것은 과함"
+    },
+    "41": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "굳지 않은 콘크리트에 블리딩 많으면 안 됨"
+    },
+    "42": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "구조재 아닌 것=천장"
+    },
+    "43": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "지그재그 기호=붙박이창. 자막 망사문은 점선"
+    },
+    "44": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "배치도=대지 내 건물 위치와 방위"
+    },
+    "45": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "4000/200=20mm"
+    },
+    "47": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "길이방향을 좌우로 놓은 것이 정위치"
+    },
+    "48": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "지시선에 화살표와 점 혼용 금지"
+    },
+    "49": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "이음단면은 응력방향에 직각. 평행은 틀림"
+    },
+    "51": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "처마홈통 빗물 지상 유도 수직관=선홈통"
+    },
+    "52": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "천장평면도는 밑에서 위로. 위에서 내려다는 ②가 틀림"
+    },
+    "53": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "목재 흡수·흡습성 큼. 작다는 ④가 틀림"
+    },
+    "54": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "세로치수는 좌측 기입. 우측 ④가 틀림"
+    },
+    "56": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "주근은 인장. 압축이라는 ③이 틀림"
+    },
+    "59": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "신축이음 이유 아닌 것=결로방지"
+    }
   }
 }

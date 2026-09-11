@@ -2,16 +2,311 @@
   "round": "2021-3회",
   "replace_note_image": false,
   "answers": {
-    "1": {"answer": "①", "status": "추론", "source": "solve", "why": "가사노동 동선은 짧게. 길게라는 ①이 틀림"},
-    "2": {"answer": "③", "status": "확정", "source": "image", "why": "천장 낮추면 아늑 ③ 체크"},
-    "3": {"answer": "③", "status": "확정", "source": "image", "why": "VMD에 SP 없음. 자막"},
-    "5": {"answer": "④", "status": "확정", "source": "image", "why": "인체스케일 ④ 체크"},
-    "6": {"answer": "②", "status": "확정", "source": "image", "why": "차단적 분할 재료 아닌 것=조명 ② 체크"},
-    "8": {"answer": "③", "status": "추론", "source": "solve", "why": "로만은 천을 감아올리는 방식. 날개 각도라는 ③이 틀림"},
-    "9": {"answer": "①", "status": "추론", "source": "solve", "why": "5YR 7/2=노란기미 주황, 명도7 채도2"},
-    "10": {"answer": "③", "status": "추론", "source": "solve", "why": "고창은 환기보다 벽면 전시. 환기 목적이라는 ③이 틀림"},
-    "11": {"answer": "③", "status": "확정", "source": "image", "why": "물체 색 결정 광원=연색성 ③ 체크"},
-    "31": {"answer": "②", "status": "확정", "source": "image", "why": "환기 창 면적 바닥 1/20 이상"},
-    "60": {"answer": "③", "status": "확정", "source": "image", "why": "시멘트페이스트 많을수록 크리프 큼. 작다는 ③이 틀림"}
+    "1": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "가사노동 동선은 짧게. 길게라는 ①이 틀림"
+    },
+    "2": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "천장 낮추면 아늑 ③ 체크"
+    },
+    "3": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "VMD에 SP 없음. 자막"
+    },
+    "5": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "인체스케일 ④ 체크"
+    },
+    "6": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "차단적 분할 재료 아닌 것=조명 ② 체크"
+    },
+    "8": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "로만은 천을 감아올리는 방식. 날개 각도라는 ③이 틀림"
+    },
+    "9": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "5YR 7/2=노란기미 주황, 명도7 채도2"
+    },
+    "10": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "고창은 환기보다 벽면 전시. 환기 목적이라는 ③이 틀림"
+    },
+    "11": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "물체 색 결정 광원=연색성 ③ 체크"
+    },
+    "31": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "환기 창 면적 바닥 1/20 이상"
+    },
+    "60": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "시멘트페이스트 많을수록 크리프 큼. 작다는 ③이 틀림"
+    },
+    "4": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "반복 통제된 운동감각=리듬"
+    },
+    "7": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "현관은 거실·침실과 직접 접하면 안 됨"
+    },
+    "12": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "세터는 로마 식침용이 아님"
+    },
+    "13": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "건축화된 수납가구=붙박이"
+    },
+    "15": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "목재 인장저항은 큼. 약하다는 ④가 틀림"
+    },
+    "16": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "목재 무늬 살림=클리어래커"
+    },
+    "17": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "흡수성 극소 고온소성=자기"
+    },
+    "18": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "조강시멘트는 매스콘크리트에 부적절"
+    },
+    "19": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "목섬유 결합=MDF"
+    },
+    "20": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "환기 효과 최대=기계력 강제환기"
+    },
+    "21": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "눈부심 방지에 휘도 높임은 반대"
+    },
+    "22": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "압출은 열처리 아님"
+    },
+    "23": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "가장 곱게=정다듬"
+    },
+    "24": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "연질·경질 섬유판 구분=밀도"
+    },
+    "25": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "폴리에스테르는 열경화성"
+    },
+    "26": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "거실에 식사 부속·부엌 분리=LD형"
+    },
+    "27": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "벽면 매입 비스타=광창조명"
+    },
+    "28": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "황금비 모듈=르 꼬르뷔지에"
+    },
+    "30": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "인동간격=동지 일조"
+    },
+    "32": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "1방향 슬래브 최소두께 80mm"
+    },
+    "33": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "치수는 마무리 치수"
+    },
+    "34": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "창문틀 좌우 수직=선틀"
+    },
+    "35": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "2층 이상 단일재=통재기둥"
+    },
+    "36": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "기둥 이음은 엇걸이 산지이음 아님"
+    },
+    "37": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "좁은 공간=매끈한 유리"
+    },
+    "38": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "폭 넓은 부엌+앞뒤 회전 불편=병렬형"
+    },
+    "40": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "음의 세기=W/m2"
+    },
+    "41": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "조명설계 우선=소요조도"
+    },
+    "42": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "기온 습도 기류=유효온도"
+    },
+    "43": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "압력·타격에 판상=소성"
+    },
+    "44": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "기호는 치수 숫자 앞"
+    },
+    "46": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "같은 길이 분할=디바이더"
+    },
+    "47": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "다른 척도 사용 시에도 표시해야"
+    },
+    "48": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "직선 고정창=붙박이창"
+    },
+    "50": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "MC는 현장작업 감소. 증가라는 ④가 틀림"
+    },
+    "51": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "실내디자인은 순수예술 아님"
+    },
+    "52": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "(28*80+14*20)/100=25.2℃"
+    },
+    "54": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "중성대~유출구 높이는 클수록 환기량 증가"
+    },
+    "55": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "잔향시간은 실용적 클수록 김"
+    },
+    "58": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "포름알데히드와 먼 것=석면"
+    }
   }
 }

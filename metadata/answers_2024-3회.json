@@ -2,9 +2,323 @@
   "round": "2024-3회",
   "replace_note_image": false,
   "answers": {
-    "1": {"answer": "①", "status": "확정", "source": "image", "why": "대중적 저속=키치 ① 체크"},
-    "2": {"answer": "③", "status": "추론", "source": "solve", "why": "AIDMA에 Design 없음"},
-    "31": {"answer": "④", "status": "추론", "source": "solve", "why": "잔향은 실의 용적과 관련.  unrelated ④가 틀림일 수 있음. 회의실 잔향 긴 것은 바람직하지 않음=옳지 않은 설명 ④"},
-    "60": {"answer": "②", "status": "확정", "source": "image", "why": "세장 기둥 좌굴 ② 체크"}
+    "1": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "대중적 저속=키치 ① 체크"
+    },
+    "2": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "AIDMA에 Design 없음"
+    },
+    "31": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "잔향은 실의 용적과 관련.  unrelated ④가 틀림일 수 있음. 회의실 잔향 긴 것은 바람직하지 않음=옳지 않은 설명 ④"
+    },
+    "60": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "세장 기둥 좌굴 ② 체크"
+    },
+    "4": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "동일 의자 나란히 2인=세터"
+    },
+    "5": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "거실은 통로로 쓰지 않음"
+    },
+    "6": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "쉽게 찾게 수납=가시성"
+    },
+    "7": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "가구 배치 우선=기능성"
+    },
+    "8": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "쇼윈도 내부는 밝게. 어둡게는 틀림"
+    },
+    "9": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "현관은 거실·침실과 직접 연결 금지"
+    },
+    "10": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "쇼윈도+출입구+홀 입구=파사드 ① 체크"
+    },
+    "11": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "기하형태보다 불규칙 형태 중량감이 큼"
+    },
+    "12": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "여닫이는 경첩 회전. 미닫이 설명인 ④가 틀림"
+    },
+    "13": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "골든스페이스 850~1250mm"
+    },
+    "14": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "VMD와 먼 것=유지보수"
+    },
+    "15": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "원형·정사각 중심 강조=공간형태 강조"
+    },
+    "16": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "사방 감상·벽면 떨어 전시=아일랜드"
+    },
+    "17": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "평가기준과 먼 것=주관성"
+    },
+    "18": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "궁극 목적=인간생활 쾌적성"
+    },
+    "19": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "천장 낮으면 아늑, 높으면 확대감"
+    },
+    "20": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "정측창은 미술관·박물관에서 사용. 곤란하다는 ④가 틀림"
+    },
+    "21": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "목재 인장저항은 강함. 약하다는 ④가 틀림"
+    },
+    "22": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "발열량 저감 매스콘크리트=중용열"
+    },
+    "23": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "2장 판유리 건조공기=복층유리"
+    },
+    "24": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "킨즈시멘트=경석고 플라스터"
+    },
+    "25": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "A 열전도, B 열관류"
+    },
+    "26": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "방식은 건조 유지. 습윤은 반대"
+    },
+    "28": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "보 없이 바닥판만=플랫 슬래브"
+    },
+    "29": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "목섬유+접착제=MDF"
+    },
+    "30": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "압출은 열처리 아님"
+    },
+    "32": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "휘도=cd/m2"
+    },
+    "33": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "래티스는 보의 판. 주각 아님"
+    },
+    "34": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "섬유포화점 이하에서 강도 증대. 이상은 틀림"
+    },
+    "36": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "밝은 곳→어두운 곳=암순응"
+    },
+    "38": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "밑바닥 전체 기초=온통기초"
+    },
+    "39": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "이오토막=영국식 쌓기"
+    },
+    "40": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "트러스 종횡 입체=스페이스 프레임"
+    },
+    "41": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "웹 좌굴 방지=스티프너"
+    },
+    "42": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "기호는 치수 숫자 앞"
+    },
+    "44": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "2층 이상 단일재=통재기둥"
+    },
+    "45": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "B 위=평면도"
+    },
+    "46": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "삼각스케일=축척"
+    },
+    "48": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "수평면과 화면 교차=기선"
+    },
+    "49": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "치수는 좌→우 아래→위. 위에서 아래는 틀림"
+    },
+    "50": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "주근 좌굴 방지=띠철근"
+    },
+    "51": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "원호 이외 곡선=운형자"
+    },
+    "52": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "접이문(폴딩도어)"
+    },
+    "53": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "마루널 바로 밑=장선"
+    },
+    "54": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "사각뿔형 석축=견치돌"
+    },
+    "55": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "두께 기호=THK"
+    },
+    "56": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "2.0B=190+10+190=390mm"
+    },
+    "58": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "엇걸이 산지이음은 수평재. 기둥 이음은 틀림"
+    },
+    "59": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "모임지붕"
+    }
   }
 }

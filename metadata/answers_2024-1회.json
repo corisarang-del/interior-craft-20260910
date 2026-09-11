@@ -2,10 +2,323 @@
   "round": "2024-1회",
   "replace_note_image": false,
   "answers": {
-    "1": {"answer": "③", "status": "확정", "source": "image", "why": "천장 설명 옳은 것 ③ 체크"},
-    "3": {"answer": "①", "status": "확정", "source": "image", "why": "점은 크기와 위치만 있다. ①이 틀림 체크"},
-    "5": {"answer": "④", "status": "확정", "source": "image", "why": "욕실 기능 통합이라는 ④가 틀림. 독립 구성"},
-    "31": {"answer": "③", "status": "확정", "source": "image", "why": "방식은 건조 유지. 습윤 유지라는 ③이 틀림"},
-    "2": {"answer": "①", "status": "확정", "source": "image", "why": "점은 크기·위치만. 면적이 있다는 ①이 틀림"}
+    "1": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "천장 설명 옳은 것 ③ 체크"
+    },
+    "3": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "점은 크기와 위치만 있다. ①이 틀림 체크"
+    },
+    "5": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "욕실 기능 통합이라는 ④가 틀림. 독립 구성"
+    },
+    "31": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "방식은 건조 유지. 습윤 유지라는 ③이 틀림"
+    },
+    "2": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "점은 크기·위치만. 면적이 있다는 ①이 틀림"
+    },
+    "4": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "추상=생략·과장으로 재구성. 밑줄"
+    },
+    "6": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "개구부는 벽체 대신 불가"
+    },
+    "7": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "대칭은 수동. 능동이라는 ④가 틀림"
+    },
+    "8": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "개구부 크면 공간 확장"
+    },
+    "9": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "수평 날개 먼지=베네시안"
+    },
+    "10": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "문 위치와 먼 것=재료·문 종류"
+    },
+    "11": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "한식은 융통성 높음. 낮다는 ①이 틀림"
+    },
+    "12": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "픽처윈도는 일광조절 아님"
+    },
+    "13": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "간접조명은 은은. 뚜렷한 입체는 틀림"
+    },
+    "14": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "리듬과 먼 것=조화"
+    },
+    "15": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "풍력환기량은 풍속에 비례. 반비례는 틀림"
+    },
+    "16": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "부엌 크기와 먼 것=대지면적"
+    },
+    "17": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "부엌·식당 최우선=작업동선"
+    },
+    "19": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "음 발생 중지 후 남는 소리=잔향"
+    },
+    "20": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "경사지붕이 평지붕보다 유리. 평지붕이 유리하다는 ①이 틀림"
+    },
+    "21": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "콘시스턴시=슬럼프 시험"
+    },
+    "22": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "혼화재=플라이애시. AE·기포·방청은 혼화제"
+    },
+    "23": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "소성온도 자-석-도-토"
+    },
+    "24": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "석고보드는 부식·충해 없음"
+    },
+    "25": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "유기유리=아크릴수지"
+    },
+    "27": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "테라코타는 화강암보다 내화성 높음"
+    },
+    "28": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "백화방지는 단위시멘트량 낮춤. 높다는 ③이 틀림"
+    },
+    "29": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "경량벽돌=다공벽돌"
+    },
+    "30": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "인방보 걸침 최소 20cm"
+    },
+    "32": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "무수축 경화 내화=석고 플라스터"
+    },
+    "34": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "회반죽은 건조수축 큼. 없다는 ④가 틀림"
+    },
+    "35": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "내화성 높은 석재=응회암"
+    },
+    "36": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "블로운 개량 지붕방수=아스팔트 컴파운드"
+    },
+    "37": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "금속판 잇기 아닌 것=쪽매잇기"
+    },
+    "38": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "작업성+동결융해=AE제"
+    },
+    "40": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "경화 시 용적 팽창=안정성"
+    },
+    "41": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "C3S·석회 많고 분말도 큼=조강"
+    },
+    "42": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "석재 강도 최대=압축"
+    },
+    "43": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "글자체는 고딕. 명조체는 틀림"
+    },
+    "44": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "사선 해칭=목재(치장재)"
+    },
+    "45": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "트레이싱지는 청사진 작업해 오래 보관"
+    },
+    "46": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "배치도는 기본설계도. 계획설계도 아님"
+    },
+    "47": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "수직선은 아래에서 위. 위에서 아래는 틀림"
+    },
+    "48": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "블록쌓기는 통줄눈 피함. 원칙이라는 ④가 틀림"
+    },
+    "49": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "단단·강도 크나 내화성 약=화강암"
+    },
+    "50": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "평면도 절단 높이 1.2~1.5m"
+    },
+    "51": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "같은 길이 분할=디바이더"
+    },
+    "52": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "입면도=창호 형상·높이"
+    },
+    "53": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "전개도는 집기·마감. 기둥 창호를 진하게는 틀림"
+    },
+    "54": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "음식물 산화는 열 생산. 손실 아님"
+    },
+    "56": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "건축제도에 1/60 없음"
+    },
+    "58": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "A종 블록 압축강도 4MPa 이상"
+    },
+    "60": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "고력볼트는 높은 응력. 작은 응력이라는 ②가 틀림"
+    }
   }
 }

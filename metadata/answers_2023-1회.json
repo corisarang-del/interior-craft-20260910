@@ -2,20 +2,311 @@
   "round": "2023-1회",
   "replace_note_image": false,
   "answers": {
-    "1": {"answer": "④", "status": "확정", "source": "image", "why": "협소 매장 동선 빠른 진열=직렬형 ④ 체크"},
-    "3": {"answer": "②", "status": "확정", "source": "image", "why": "균형 원리 옳지 않은 것 ② 체크"},
-    "4": {"answer": "③", "status": "확정", "source": "image", "why": "사회공간=식당 거실 응접실"},
-    "6": {"answer": "①", "status": "추론", "source": "solve", "why": "좁은 면적 소규모 부엌=일자형"},
-    "7": {"answer": "②", "status": "확정", "source": "image", "why": "전개도=실 내부 마감 명시"},
-    "10": {"answer": "②", "status": "확정", "source": "image", "why": "평면도 절단 높이 1.2m. 자막"},
-    "12": {"answer": "④", "status": "확정", "source": "image", "why": "투명 수정 용이=트레이싱지 ④ 체크"},
-    "15": {"answer": "①", "status": "확정", "source": "image", "why": "쉐이드 감아올림=롤블라인드 ① 체크"},
-    "31": {"answer": "③", "status": "확정", "source": "image", "why": "개수-준비-조리-가열-배선 ③ 체크"},
-    "32": {"answer": "③", "status": "확정", "source": "image", "why": "CO2 증가 시 산소 감소 ③ 체크"},
-    "50": {"answer": "②", "status": "확정", "source": "image", "why": "분말도=블레인법 ② 체크"},
-    "60": {"answer": "①", "status": "확정", "source": "image", "why": "가장 단단한 연필=3H ① 체크"},
-    "2": {"answer": "③", "status": "확정", "source": "image", "why": "넓은 공간 안정감=높이 낮춤. 유리창 최대는 더 넓어 보임"},
-    "5": {"answer": "④", "status": "추론", "source": "solve", "why": "리듬 요소 아닌 것=방사"},
-    "13": {"answer": "④", "status": "확정", "source": "image", "why": "집성목재 장점 아닌 것=톱밥 폐재 이용 경제 ④ 체크"}
+    "1": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "협소 매장 동선 빠른 진열=직렬형 ④ 체크"
+    },
+    "3": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "균형 원리 옳지 않은 것 ② 체크"
+    },
+    "4": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "사회공간=식당 거실 응접실"
+    },
+    "6": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "좁은 면적 소규모 부엌=일자형"
+    },
+    "7": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "전개도=실 내부 마감 명시"
+    },
+    "10": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "평면도 절단 높이 1.2m. 자막"
+    },
+    "12": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "투명 수정 용이=트레이싱지 ④ 체크"
+    },
+    "15": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "쉐이드 감아올림=롤블라인드 ① 체크"
+    },
+    "31": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "개수-준비-조리-가열-배선 ③ 체크"
+    },
+    "32": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "CO2 증가 시 산소 감소 ③ 체크"
+    },
+    "50": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "분말도=블레인법 ② 체크"
+    },
+    "60": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "가장 단단한 연필=3H ① 체크"
+    },
+    "2": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "넓은 공간 안정감=높이 낮춤. 유리창 최대는 더 넓어 보임"
+    },
+    "5": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "리듬 요소 아닌 것=방사"
+    },
+    "13": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "집성목재 장점 아닌 것=톱밥 폐재 이용 경제 ④ 체크"
+    },
+    "9": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "4000mm/200=20mm"
+    },
+    "11": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "디스플레이 궁극 목적=상품 판매"
+    },
+    "14": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "일조조절 아닌 것=러그"
+    },
+    "16": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "알칼리성 강함=염화비닐"
+    },
+    "17": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "벽면 매입 비스타=광창조명"
+    },
+    "19": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "측창은 비막이에 불리"
+    },
+    "20": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "가구식=목구조·철골"
+    },
+    "21": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "잔향은 용적·흡음. 평면형태와 밀접은 틀림"
+    },
+    "22": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "결로와 먼 것=방수"
+    },
+    "23": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "촉각·시각 표면 특징=질감"
+    },
+    "25": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "입자 미세할수록 가소성 좋음"
+    },
+    "26": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "발 올려놓기=오토만"
+    },
+    "27": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "여닫이 철물 아닌 것=레일"
+    },
+    "28": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "수량에 따른 유동성=콘시스턴시"
+    },
+    "29": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "골재 체 호칭에 35mm 없음"
+    },
+    "33": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "인성의 반대=취성"
+    },
+    "34": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "모서리 보호=코너비드"
+    },
+    "36": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "작업성+동결융해=AE감수제"
+    },
+    "37": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "주각 구성=베이스 플레이트"
+    },
+    "39": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "인장만 케이블 매단=현수구조"
+    },
+    "40": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "결로방지 아닌 것=건물을 경사지게"
+    },
+    "41": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "강화유리는 현장 절단 불가"
+    },
+    "42": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "점토벽돌 190×90×57"
+    },
+    "43": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "목재 강도는 응력 방향에 따라 다름"
+    },
+    "44": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "모서리 경사지게=맞춤"
+    },
+    "45": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "배합설계 우선=요구성능 설정"
+    },
+    "46": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "돌로마이트 플라스터는 성형성이 좋음"
+    },
+    "48": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "화성암 아닌 것=석회암"
+    },
+    "49": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "압력에 박편=전성"
+    },
+    "51": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "수화 지연 저발열=중용열"
+    },
+    "52": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "사다리꼴 나무토막=산지"
+    },
+    "53": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "선은 한 번에. 여러 번 긋기는 틀림"
+    },
+    "55": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "철근 이음은 휨모멘트 큰 곳 금지"
+    },
+    "56": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "장주 편심 휨=좌굴"
+    },
+    "8": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "온열 4요소는 기온·습도·기류·복사. 보기 전부가 해당이라 가장 먼 복사열로 둠"
+    },
+    "57": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "수평선 HL이 아니라 기선이 수평면과 화면의 교차선"
+    }
   }
 }

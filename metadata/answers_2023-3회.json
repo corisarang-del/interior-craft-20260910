@@ -2,11 +2,317 @@
   "round": "2023-3회",
   "replace_note_image": false,
   "answers": {
-    "2": {"answer": "②", "status": "확정", "source": "image", "why": "데드스페이스 줄이기와 먼 것=기능별 독립 실 계획 ② 체크"},
-    "4": {"answer": "②", "status": "확정", "source": "image", "why": "균형 원리 옳지 않은 것 ② 체크"},
-    "5": {"answer": "④", "status": "추론", "source": "solve", "why": "펜로즈 삼각형=다의도형 착시"},
-    "7": {"answer": "①", "status": "확정", "source": "image", "why": "실내디자인과 먼 것=순수예술 ① 체크"},
-    "31": {"answer": "③", "status": "확정", "source": "image", "why": "화성암 아닌 것=응회암(퇴적) ③ 체크"},
-    "60": {"answer": "①", "status": "확정", "source": "image", "why": "SRC=철골철근콘크리트"}
+    "2": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "데드스페이스 줄이기와 먼 것=기능별 독립 실 계획 ② 체크"
+    },
+    "4": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "균형 원리 옳지 않은 것 ② 체크"
+    },
+    "5": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "펜로즈 삼각형=다의도형 착시"
+    },
+    "7": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "실내디자인과 먼 것=순수예술 ① 체크"
+    },
+    "31": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "화성암 아닌 것=응회암(퇴적) ③ 체크"
+    },
+    "60": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "SRC=철골철근콘크리트"
+    },
+    "1": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "바닥 구획 가장 효과=단높이 변화"
+    },
+    "3": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "천장채광은 채광량이 많음. 적다는 ③이 틀림"
+    },
+    "6": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "날개 각도 수평형=베네시안"
+    },
+    "8": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "골든스페이스 약 850~1250mm"
+    },
+    "9": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "남부 한옥은 개방적. 기밀 폐쇄는 틀림"
+    },
+    "10": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "발 올려놓기=오토만"
+    },
+    "11": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "코브=구조체에 가려 간접조명"
+    },
+    "12": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "현관은 거실과 직접 접하면 안 됨"
+    },
+    "13": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "대면판매는 직접 접촉 선택이 아님"
+    },
+    "14": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "일광조절 아닌 것=코니스"
+    },
+    "15": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "질감=촉각·시각"
+    },
+    "16": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "벽이 조형적으로 가장 자유롭다는 ①이 과함"
+    },
+    "17": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "ㄱ자형은 효율 최고가 아님"
+    },
+    "18": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "작업삼각형 아닌 것=배선대"
+    },
+    "19": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "황색 심벌 배경=흑색"
+    },
+    "20": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "고정창은 형태 제약 없음. 자막"
+    },
+    "21": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "조화=질적·양적 모순 없이 질서"
+    },
+    "22": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "디자인 형태는 대부분 인공. 자연형태라는 ①이 틀림"
+    },
+    "24": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "R+G+B 가법혼색=백색"
+    },
+    "25": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "어두운 색 속 밝은 색=명도대비"
+    },
+    "26": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "강재 인장강도 최대=약 250℃. 자막"
+    },
+    "27": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "합성수지는 전성·연성 좋음. 작다는 ③이 틀림"
+    },
+    "28": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "수분 침투 시 열전도율 증가"
+    },
+    "30": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "단열재는 비중 작아야. 크다는 ②가 틀림"
+    },
+    "32": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "실내공기오염 종합지표=CO2. 자막"
+    },
+    "33": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "온수난방은 열용량 커서 예열시간 김"
+    },
+    "34": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "통기관은 신축 흡수 아님"
+    },
+    "35": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "외벽은 외단열. 내단열이라는 ①이 틀림"
+    },
+    "37": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "비카트는 시멘트 응결. 워커빌리티 아님"
+    },
+    "38": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "스트레이트 아스팔트는 가공품"
+    },
+    "40": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "대리석=석회석 변성. 자막"
+    },
+    "42": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "산성 흙에서 금속 부식"
+    },
+    "43": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "섬유평행 때 가장 작은 값=전단"
+    },
+    "44": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "치수 옮김·등분=디바이더"
+    },
+    "45": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "탄성한도=직선 끝 B"
+    },
+    "46": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "16000/200=80mm"
+    },
+    "47": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "직교 모서리 직각 유지=ㄱ자쇠"
+    },
+    "48": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "벽돌구조는 횡력·지진에 약함"
+    },
+    "49": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "지반선 기호가 틀림"
+    },
+    "51": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "실시설계도=전개도"
+    },
+    "52": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "치수는 mm. cm라는 ③이 틀림"
+    },
+    "53": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "조명은 좌측 상단. 우측은 틀림"
+    },
+    "54": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "정적 건물 표현=평행투시도"
+    },
+    "55": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "천장-벽 오목 줄눈=오니줄눈"
+    },
+    "59": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "기초평면도에 기와 잇기 없음"
+    },
+    "57": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "장주 편심 휨=좌굴"
+    }
   }
 }

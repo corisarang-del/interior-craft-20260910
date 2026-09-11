@@ -10,11 +10,10 @@
       "frame": "frame_007.jpg"
     },
     "2": {
-      "answer": "②",
-      "status": "확정",
-      "source": "image",
-      "why": "보기 ②에 정답 표시가 확인된다.",
-      "frame": "frame_009.jpg"
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "키워드 라운지체어. 라운지체어 설명이 틀림"
     },
     "3": {
       "answer": "②",
@@ -337,6 +336,36 @@
       "source": null,
       "why": "vision err FileNotFoundError",
       "frame": "frame_149.jpg"
+    },
+    "30": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "하향급수=고가수조방식"
+    },
+    "37": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "음 중첩 합성=간섭"
+    },
+    "48": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "목재 인장저항은 강함. 약하다는 ④가 틀림"
+    },
+    "53": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "노후화 억제·대수선=리모델링"
+    },
+    "55": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "질감은 시각만이 아님. 시각만이라는 ①이 틀림"
     }
   },
   "raw": [

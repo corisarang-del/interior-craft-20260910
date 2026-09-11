@@ -2,29 +2,323 @@
   "round": "2020-1회",
   "replace_note_image": false,
   "answers": {
-    "1": {"answer": "③", "status": "추론", "source": "solve", "why": "상점계획과 먼 것=상품배치방식"},
-    "2": {"answer": "①", "status": "확정", "source": "image", "why": "힘의 강약 초점=강조"},
-    "4": {"answer": "③", "status": "확정", "source": "image", "why": "수평 블라인드=베니션"},
-    "7": {"answer": "②", "status": "추론", "source": "solve", "why": "문 위치와 가장 먼 것=가구를 배치한 공간"},
-    "10": {"answer": "②", "status": "확정", "source": "image", "why": "피보나치 21 다음 34"},
-    "31": {"answer": "②", "status": "확정", "source": "image", "why": "H형강 7은 웨브 두께"},
-    "40": {"answer": "④", "status": "확정", "source": "image", "why": "동바리마루 구성 아닌 것=걸레받이"},
-    "60": {"answer": "④", "status": "확정", "source": "image", "why": "플레이트보 아닌 것=베이스플레이트"},
-    "3": {"answer": "③", "status": "추론", "source": "solve", "why": "거실을 평면 중앙에 두면 통로가 됨. 틀린 설명"},
-    "5": {"answer": "②", "status": "추론", "source": "solve", "why": "발 올리는 스툴=오토만"},
-    "6": {"answer": "④", "status": "추론", "source": "solve", "why": "조선 주택은 사랑·안·바깥채. 크게 3개 구분 설명은 맞을 수 있으나 자막은 사랑·안채. 옳지 않은 것은 수택을 3개로 나눈 ④"},
-    "8": {"answer": "④", "status": "확정", "source": "image", "why": "모듈러는 현장작업 감소. 증가라는 ④가 틀림"},
-    "9": {"answer": "①", "status": "추론", "source": "solve", "why": "점은 공간적 착시. 공감각은 아님"},
-    "11": {"answer": "①", "status": "확정", "source": "image", "why": "한국 기후 자연형 설계 옳지 않은 것 ① 체크"},
-    "14": {"answer": "③", "status": "확정", "source": "image", "why": "장식조명 아닌 것=글레어"},
-    "15": {"answer": "④", "status": "확정", "source": "image", "why": "고체 통해 다른 쪽 유체=열관류 ④ 체크"},
-    "16": {"answer": "②", "status": "확정", "source": "image", "why": "벽면 광원 비스타=광천장 ② 체크"},
-    "18": {"answer": "①", "status": "추론", "source": "solve", "why": "별장에서 보이는 취사용 작업대 하나=리빙키친"},
-    "20": {"answer": "①", "status": "확정", "source": "image", "why": "파동 진행 막아도 후면 전달=회절"},
-    "24": {"answer": "④", "status": "확정", "source": "image", "why": "블로운 아스팔트 혼입=컴파운드 ④ 체크"},
-    "32": {"answer": "③", "status": "확정", "source": "image", "why": "소다석회유리 융점이 낮다는 ③이 틀림"},
-    "33": {"answer": "③", "status": "확정", "source": "image", "why": "제물치장=시공한 그대로. 자막 3번"},
-    "44": {"answer": "③", "status": "확정", "source": "image", "why": "이오토막=영국식 쌓기"},
-    "56": {"answer": "②", "status": "추론", "source": "solve", "why": "조적식=벽돌·돌. 철골-벽돌은 짝이 틀림"}
+    "1": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "상점계획과 먼 것=상품배치방식"
+    },
+    "2": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "힘의 강약 초점=강조"
+    },
+    "4": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "수평 블라인드=베니션"
+    },
+    "7": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "문 위치와 가장 먼 것=가구를 배치한 공간"
+    },
+    "10": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "피보나치 21 다음 34"
+    },
+    "31": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "H형강 7은 웨브 두께"
+    },
+    "40": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "동바리마루 구성 아닌 것=걸레받이"
+    },
+    "60": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "플레이트보 아닌 것=베이스플레이트"
+    },
+    "3": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "거실을 평면 중앙에 두면 통로가 됨. 틀린 설명"
+    },
+    "5": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "발 올리는 스툴=오토만"
+    },
+    "6": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "조선 주택은 사랑·안·바깥채. 크게 3개 구분 설명은 맞을 수 있으나 자막은 사랑·안채. 옳지 않은 것은 수택을 3개로 나눈 ④"
+    },
+    "8": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "모듈러는 현장작업 감소. 증가라는 ④가 틀림"
+    },
+    "9": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "점은 공간적 착시. 공감각은 아님"
+    },
+    "11": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "한국 기후 자연형 설계 옳지 않은 것 ① 체크"
+    },
+    "14": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "장식조명 아닌 것=글레어"
+    },
+    "15": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "고체 통해 다른 쪽 유체=열관류 ④ 체크"
+    },
+    "16": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "벽면 광원 비스타=광천장 ② 체크"
+    },
+    "18": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "별장에서 보이는 취사용 작업대 하나=리빙키친"
+    },
+    "20": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "파동 진행 막아도 후면 전달=회절"
+    },
+    "24": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "블로운 아스팔트 혼입=컴파운드 ④ 체크"
+    },
+    "32": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "소다석회유리 융점이 낮다는 ③이 틀림"
+    },
+    "33": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "제물치장=시공한 그대로. 자막 3번"
+    },
+    "44": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "이오토막=영국식 쌓기"
+    },
+    "56": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "조적식=벽돌·돌. 철골-벽돌은 짝이 틀림"
+    },
+    "13": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "노인·장애인 배려=유니버설 디자인"
+    },
+    "17": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "기계송풍+기계배기=제1종 환기"
+    },
+    "19": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "준인체계 작업용 가구=테이블"
+    },
+    "21": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "음의 크기 단위=sone"
+    },
+    "22": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "산화작용은 열 생산. 손실 아님"
+    },
+    "23": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "질감 선택과 먼 것=스케일"
+    },
+    "26": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "워커빌리티와 먼 것=물의 염도"
+    },
+    "27": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "접착제는 고화 시 수축 변형이 없어야"
+    },
+    "28": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "창대블록"
+    },
+    "29": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "밀폐 고온 저압=진공건조"
+    },
+    "30": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "폴리스티렌=단열재 스티로폼"
+    },
+    "34": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "탄산가스로 알칼리성 상실=중성화"
+    },
+    "36": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "늑근=전단력"
+    },
+    "37": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "구리+주석=청동"
+    },
+    "41": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "SRC는 내화 우수. 철골보다 강도감소 크다는 ②가 틀림"
+    },
+    "43": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "큰보에 작은보 직교=짠마루"
+    },
+    "45": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "골재 크기는 입도분포가 있어야. 동일은 틀림"
+    },
+    "47": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "500℃에서 1/10은 과함"
+    },
+    "48": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "곡면판 경량 내력=셸구조"
+    },
+    "49": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "가장 큰 원=빔 컴퍼스"
+    },
+    "50": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "연필은 번지거나 더러워지는 단점"
+    },
+    "51": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "수평면과 화면 교차=기선"
+    },
+    "52": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "숫자는 아라비아. 로마는 틀림"
+    },
+    "53": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "디바이더=치수 옮기기·등분"
+    },
+    "54": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "배경 표현과 먼 것=내부 동선"
+    },
+    "55": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "45+60으로 50도는 못 그림"
+    },
+    "57": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "트러스 종횡 입체=스페이스 프레임"
+    },
+    "58": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "잔다듬=날망치"
+    },
+    "59": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "면적 A + 나비 W"
+    }
   }
 }

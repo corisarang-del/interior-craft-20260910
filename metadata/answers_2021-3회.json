@@ -5,6 +5,13 @@
     "1": {"answer": "①", "status": "추론", "source": "solve", "why": "가사노동 동선은 짧게. 길게라는 ①이 틀림"},
     "2": {"answer": "③", "status": "확정", "source": "image", "why": "천장 낮추면 아늑 ③ 체크"},
     "3": {"answer": "③", "status": "확정", "source": "image", "why": "VMD에 SP 없음. 자막"},
-    "5": {"answer": "④", "status": "확정", "source": "image", "why": "인체스케일 ④ 체크"}
+    "5": {"answer": "④", "status": "확정", "source": "image", "why": "인체스케일 ④ 체크"},
+    "6": {"answer": "②", "status": "확정", "source": "image", "why": "차단적 분할 재료 아닌 것=조명 ② 체크"},
+    "8": {"answer": "③", "status": "추론", "source": "solve", "why": "로만은 천을 감아올리는 방식. 날개 각도라는 ③이 틀림"},
+    "9": {"answer": "①", "status": "추론", "source": "solve", "why": "5YR 7/2=노란기미 주황, 명도7 채도2"},
+    "10": {"answer": "③", "status": "추론", "source": "solve", "why": "고창은 환기보다 벽면 전시. 환기 목적이라는 ③이 틀림"},
+    "11": {"answer": "③", "status": "확정", "source": "image", "why": "물체 색 결정 광원=연색성 ③ 체크"},
+    "31": {"answer": "②", "status": "확정", "source": "image", "why": "환기 창 면적 바닥 1/20 이상"},
+    "60": {"answer": "③", "status": "확정", "source": "image", "why": "시멘트페이스트 많을수록 크리프 큼. 작다는 ③이 틀림"}
   }
 }

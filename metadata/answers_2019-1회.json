@@ -3,6 +3,7 @@
   "replace_note_image": false,
   "answers": {
     "1": {"answer": "③", "status": "추론", "source": "solve", "why": "AIDMA에 Design 없음"},
+    "3": {"answer": "②", "status": "추론", "source": "solve", "why": "사선 느낌과 먼 것=안정감"},
     "4": {"answer": "③", "status": "추론", "source": "solve", "why": "건축계 가구 아닌 것=파티션"},
     "5": {"answer": "①", "status": "확정", "source": "image", "why": "파사드 ① 체크"},
     "6": {"answer": "③", "status": "확정", "source": "image", "why": "1인용 2개=트윈 ③ 체크"},
@@ -25,6 +26,7 @@
     "50": {"answer": "④", "status": "확정", "source": "image", "why": "멤브레인 아닌 것=강활성 방수제 ④ 체크"},
     "55": {"answer": "②", "status": "확정", "source": "image", "why": "수평면은 눈높이와 평행 아님 ②"},
     "58": {"answer": "④", "status": "확정", "source": "image", "why": "조명은 좌측상단이 유리. 우측상단 ④가 틀림"},
-    "60": {"answer": "②", "status": "확정", "source": "image", "why": "강재거푸집 재사용 가능. 불가능하다는 ②가 틀림"}
+    "60": {"answer": "②", "status": "확정", "source": "image", "why": "강재거푸집 재사용 가능. 불가능하다는 ②가 틀림"},
+    "33": {"answer": "④", "status": "확정", "source": "image", "why": "슬럼프=반죽질기 ④"}
   }
 }

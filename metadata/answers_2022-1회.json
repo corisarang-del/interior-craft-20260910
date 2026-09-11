@@ -8,6 +8,24 @@
     "7": {"answer": "④", "status": "추론", "source": "solve", "why": "인체공학과 먼 것=일반 창의 크기"},
     "8": {"answer": "①", "status": "확정", "source": "image", "why": "침착 평형=균형 ① 체크"},
     "9": {"answer": "①", "status": "확정", "source": "image", "why": "한식 공간 융통성 낮다는 ①이 틀림"},
-    "32": {"answer": "①", "status": "확정", "source": "image", "why": "하중 지속 변형 증가=크리프"}
+    "32": {"answer": "①", "status": "확정", "source": "image", "why": "하중 지속 변형 증가=크리프"},
+    "10": {"answer": "②", "status": "확정", "source": "image", "why": "가벼운 이동 의자=풀업 체어"},
+    "11": {"answer": "④", "status": "확정", "source": "image", "why": "VMD 아닌 것=POP. 자막"},
+    "12": {"answer": "②", "status": "확정", "source": "image", "why": "천장 매달림+자체 발광=펜던트 ② 체크"},
+    "13": {"answer": "②", "status": "확정", "source": "image", "why": "그리스 오더 아닌 것=투스칸 ② 체크"},
+    "14": {"answer": "④", "status": "확정", "source": "image", "why": "레이아웃 아닌 것=재료마감계획. 자막"},
+    "16": {"answer": "③", "status": "추론", "source": "solve", "why": "이동창이 크기 형태 제약 없이 자유롭다는 ③이 틀림"},
+    "20": {"answer": "②", "status": "추론", "source": "solve", "why": "오피스 랜드스케이핑은 개방형. 재반식 배치라는 ②가 틀림"},
+    "21": {"answer": "③", "status": "추론", "source": "solve", "why": "인체지지 가구 아닌 것=책상"},
+    "24": {"answer": "③", "status": "확정", "source": "image", "why": "다른 쪽 음 작게=마스킹 ③ 체크"},
+    "31": {"answer": "④", "status": "확정", "source": "image", "why": "다공질 대리석 실내=트래버틴 ④ 체크"},
+    "33": {"answer": "③", "status": "확정", "source": "image", "why": "이오토막=영국식 쌓기 ③ 체크"},
+    "36": {"answer": "③", "status": "확정", "source": "image", "why": "스프링 힌지=플로어힌지"},
+    "40": {"answer": "①", "status": "확정", "source": "image", "why": "결로방지 아닌 것=비닐계 열관류율 낮춤 ① 체크"},
+    "50": {"answer": "④", "status": "확정", "source": "image", "why": "바닥 마감 곤란=코펜하겐 리브 ④ 체크"},
+    "60": {"answer": "①", "status": "확정", "source": "image", "why": "수평선은 좌에서 우. 아래에서 위라는 ①이 틀림"},
+    "3": {"answer": "③", "status": "추론", "source": "solve", "why": "유사조화는 대비보다 통일에 가깝다"},
+    "4": {"answer": "③", "status": "추론", "source": "solve", "why": "작업삼각형 변의 합 약 3.6~6.6m. 5m"},
+    "5": {"answer": "④", "status": "추론", "source": "solve", "why": "환기횟수=1시간 환기량/실 용적"}
   }
 }

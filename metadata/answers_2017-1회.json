@@ -1,7 +1,183 @@
 {
   "round": "2017-1회",
   "replace_note_image": false,
-  "answers": {},
+  "answers": {
+    "31": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "정답 표시가 확인되지 않으며, 샌드나 코르크로 금속을 피복하는 것은 일반적인 금속 방식 방법이 아니다.",
+      "frame": "frame_006.jpg"
+    },
+    "32": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "해설에 ‘4번은 옳지 않은 설명’이라고 명시되어 있다.",
+      "frame": "frame_012.jpg"
+    },
+    "33": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "① 슈미트 해머법에 정답 표시가 되어 있으며, 콘크리트 강도 측정용 비파괴시험이다.",
+      "frame": "frame_015.jpg"
+    },
+    "34": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "①번 보기에만 정답 표시(체크)가 있다.",
+      "frame": "frame_019.jpg"
+    },
+    "35": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "‘옳지 않은 것’으로 ③번 보기에 표시가 되어 있으며, 철근과 콘크리트의 선팽창계수는 서로 유사하다.",
+      "frame": "frame_031.jpg"
+    },
+    "36": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "섬유포화점 이상에서는 함수율이 증가해도 목재 강도가 증가하지 않으므로 틀린 설명이다.",
+      "frame": "frame_038.jpg"
+    },
+    "37": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "강당·집회장 천장이나 내벽의 음향 조절용 목재 가공품은 코펜하겐 리브이다.",
+      "frame": "frame_040.jpg"
+    },
+    "38": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "함유 광물의 열팽창계수 차이로 내화성이 약한 석재는 화강암이다.",
+      "frame": "frame_045.jpg"
+    },
+    "39": {
+      "answer": "④",
+      "status": "확정",
+      "source": "image",
+      "why": "④ 콘크리트 강도에 체크 표시가 되어 있다.",
+      "frame": "frame_048.jpg"
+    },
+    "40": {
+      "answer": "③",
+      "status": "확정",
+      "source": "image",
+      "why": "③번 50%에 정답 표시가 확인됩니다.",
+      "frame": "frame_054.jpg"
+    },
+    "42": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "한 켜에 길이쌓기와 마구리쌓기를 병행해 부분적으로 통줄눈이 생기기 쉬운 것은 프랑스식 쌓기이다.",
+      "frame": "frame_061.jpg"
+    },
+    "44": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "해설 화면에서 ② 백화 현상에 체크 표시가 되어 있다.",
+      "frame": "frame_067.jpg"
+    },
+    "45": {
+      "answer": "④",
+      "status": "추론",
+      "source": "solve",
+      "why": "이형철근은 표면의 돌기 때문에 원형철근보다 콘크리트와의 부착강도가 우수하다.",
+      "frame": "frame_069.jpg"
+    },
+    "46": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "철골 보의 스티프너는 하중에 의한 웨브의 국부좌굴을 방지하는 것이 주목적이다.",
+      "frame": "frame_071.jpg"
+    },
+    "48": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "철골 구조의 스티프너는 주로 웹 플레이트의 좌굴을 방지하기 위해 사용된다.",
+      "frame": "frame_072.jpg"
+    },
+    "49": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "연필심의 경도는 무른 순서대로 B→HB→F→H→2H이다.",
+      "frame": "frame_100.jpg"
+    },
+    "50": {
+      "answer": "①",
+      "status": "추론",
+      "source": "solve",
+      "why": "표시된 평면 기호가 셔터딸림창에 해당하며, 보기에서 직접 판별했다.",
+      "frame": "frame_101.jpg"
+    },
+    "51": {
+      "answer": "②",
+      "status": "추론",
+      "source": "solve",
+      "why": "실내를 입체적으로 실제와 같이 보이도록 그린 그림은 투시도이다.",
+      "frame": "frame_104.jpg"
+    },
+    "52": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "②번 보기에 정답 표시가 되어 있으며, 해설상 D 방향은 우측면도이다.",
+      "frame": "frame_113.jpg"
+    },
+    "53": {
+      "answer": "②",
+      "status": "확정",
+      "source": "image",
+      "why": "해설 화면에 ‘모임지붕’이 정답으로 표시되어 있고 ②번에 체크가 있다.",
+      "frame": "frame_118.jpg"
+    },
+    "54": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "보기 ① 시방서에 정답 표시가 되어 있다.",
+      "frame": "frame_120.jpg"
+    },
+    "55": {
+      "answer": "①",
+      "status": "확정",
+      "source": "image",
+      "why": "①번 보기에 체크 표시가 있어 정답으로 표시되어 있다.",
+      "frame": "frame_123.jpg"
+    },
+    "56": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "치수 간격이 협소할 때 인출선을 사용하는 설명이 옳다.",
+      "frame": "frame_128.jpg"
+    },
+    "57": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "스터럽은 보에서 주로 전단력에 저항하도록 설치한다.",
+      "frame": "frame_134.jpg"
+    },
+    "60": {
+      "answer": "③",
+      "status": "추론",
+      "source": "solve",
+      "why": "심재는 변재보다 비중·강도·내구성은 크고 신축성은 작다.",
+      "frame": "frame_146.jpg"
+    }
+  },
   "raw": [
     {
       "answer": null,
@@ -81,6 +257,302 @@
       "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
       "num": 14,
       "frame": "frame_078.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 15,
+      "frame": "frame_079.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 17,
+      "frame": "frame_090.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 20,
+      "frame": "frame_110.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 22,
+      "frame": "frame_091.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 23,
+      "frame": "frame_123.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 24,
+      "frame": "frame_126.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 25,
+      "frame": "frame_133.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 26,
+      "frame": "frame_136.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 27,
+      "frame": "frame_140.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 28,
+      "frame": "frame_144.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 29,
+      "frame": "frame_147.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 30,
+      "frame": "frame_149.jpg",
+      "source": "solve"
+    },
+    {
+      "num": 31,
+      "answer": "③",
+      "status": "추론",
+      "why": "정답 표시가 확인되지 않으며, 샌드나 코르크로 금속을 피복하는 것은 일반적인 금속 방식 방법이 아니다.",
+      "frame": "frame_006.jpg",
+      "source": "solve"
+    },
+    {
+      "num": 32,
+      "answer": "④",
+      "status": "확정",
+      "why": "해설에 ‘4번은 옳지 않은 설명’이라고 명시되어 있다.",
+      "frame": "frame_012.jpg",
+      "source": "image"
+    },
+    {
+      "num": 33,
+      "answer": "①",
+      "status": "확정",
+      "why": "① 슈미트 해머법에 정답 표시가 되어 있으며, 콘크리트 강도 측정용 비파괴시험이다.",
+      "frame": "frame_015.jpg",
+      "source": "image"
+    },
+    {
+      "num": 34,
+      "answer": "①",
+      "status": "확정",
+      "why": "①번 보기에만 정답 표시(체크)가 있다.",
+      "frame": "frame_019.jpg",
+      "source": "image"
+    },
+    {
+      "num": 35,
+      "answer": "③",
+      "status": "확정",
+      "why": "‘옳지 않은 것’으로 ③번 보기에 표시가 되어 있으며, 철근과 콘크리트의 선팽창계수는 서로 유사하다.",
+      "frame": "frame_031.jpg",
+      "source": "image"
+    },
+    {
+      "num": 36,
+      "answer": "③",
+      "status": "확정",
+      "why": "섬유포화점 이상에서는 함수율이 증가해도 목재 강도가 증가하지 않으므로 틀린 설명이다.",
+      "frame": "frame_038.jpg",
+      "source": "image"
+    },
+    {
+      "num": 37,
+      "answer": "②",
+      "status": "추론",
+      "why": "강당·집회장 천장이나 내벽의 음향 조절용 목재 가공품은 코펜하겐 리브이다.",
+      "frame": "frame_040.jpg",
+      "source": "solve"
+    },
+    {
+      "num": 38,
+      "answer": "④",
+      "status": "추론",
+      "why": "함유 광물의 열팽창계수 차이로 내화성이 약한 석재는 화강암이다.",
+      "frame": "frame_045.jpg",
+      "source": "solve"
+    },
+    {
+      "num": 39,
+      "answer": "④",
+      "status": "확정",
+      "why": "④ 콘크리트 강도에 체크 표시가 되어 있다.",
+      "frame": "frame_048.jpg",
+      "source": "image"
+    },
+    {
+      "num": 40,
+      "answer": "③",
+      "status": "확정",
+      "why": "③번 50%에 정답 표시가 확인됩니다.",
+      "frame": "frame_054.jpg",
+      "source": "image"
+    },
+    {
+      "num": 42,
+      "answer": "①",
+      "status": "확정",
+      "why": "한 켜에 길이쌓기와 마구리쌓기를 병행해 부분적으로 통줄눈이 생기기 쉬운 것은 프랑스식 쌓기이다.",
+      "frame": "frame_061.jpg",
+      "source": "image"
+    },
+    {
+      "num": 44,
+      "answer": "②",
+      "status": "확정",
+      "why": "해설 화면에서 ② 백화 현상에 체크 표시가 되어 있다.",
+      "frame": "frame_067.jpg",
+      "source": "image"
+    },
+    {
+      "num": 45,
+      "answer": "④",
+      "status": "추론",
+      "why": "이형철근은 표면의 돌기 때문에 원형철근보다 콘크리트와의 부착강도가 우수하다.",
+      "frame": "frame_069.jpg",
+      "source": "solve"
+    },
+    {
+      "num": 46,
+      "answer": "②",
+      "status": "추론",
+      "why": "철골 보의 스티프너는 하중에 의한 웨브의 국부좌굴을 방지하는 것이 주목적이다.",
+      "frame": "frame_071.jpg",
+      "source": "solve"
+    },
+    {
+      "num": 48,
+      "answer": "②",
+      "status": "추론",
+      "why": "철골 구조의 스티프너는 주로 웹 플레이트의 좌굴을 방지하기 위해 사용된다.",
+      "frame": "frame_072.jpg",
+      "source": "solve"
+    },
+    {
+      "num": 49,
+      "answer": "②",
+      "status": "추론",
+      "why": "연필심의 경도는 무른 순서대로 B→HB→F→H→2H이다.",
+      "frame": "frame_100.jpg",
+      "source": "solve"
+    },
+    {
+      "num": 50,
+      "answer": "①",
+      "status": "추론",
+      "why": "표시된 평면 기호가 셔터딸림창에 해당하며, 보기에서 직접 판별했다.",
+      "frame": "frame_101.jpg",
+      "source": "solve"
+    },
+    {
+      "num": 51,
+      "answer": "②",
+      "status": "추론",
+      "why": "실내를 입체적으로 실제와 같이 보이도록 그린 그림은 투시도이다.",
+      "frame": "frame_104.jpg",
+      "source": "solve"
+    },
+    {
+      "num": 52,
+      "answer": "②",
+      "status": "확정",
+      "why": "②번 보기에 정답 표시가 되어 있으며, 해설상 D 방향은 우측면도이다.",
+      "frame": "frame_113.jpg",
+      "source": "image"
+    },
+    {
+      "num": 53,
+      "answer": "②",
+      "status": "확정",
+      "why": "해설 화면에 ‘모임지붕’이 정답으로 표시되어 있고 ②번에 체크가 있다.",
+      "frame": "frame_118.jpg",
+      "source": "image"
+    },
+    {
+      "num": 54,
+      "answer": "①",
+      "status": "확정",
+      "why": "보기 ① 시방서에 정답 표시가 되어 있다.",
+      "frame": "frame_120.jpg",
+      "source": "image"
+    },
+    {
+      "num": 55,
+      "answer": "①",
+      "status": "확정",
+      "why": "①번 보기에 체크 표시가 있어 정답으로 표시되어 있다.",
+      "frame": "frame_123.jpg",
+      "source": "image"
+    },
+    {
+      "num": 56,
+      "answer": "③",
+      "status": "추론",
+      "why": "치수 간격이 협소할 때 인출선을 사용하는 설명이 옳다.",
+      "frame": "frame_128.jpg",
+      "source": "solve"
+    },
+    {
+      "num": 57,
+      "answer": "③",
+      "status": "추론",
+      "why": "스터럽은 보에서 주로 전단력에 저항하도록 설치한다.",
+      "frame": "frame_134.jpg",
+      "source": "solve"
+    },
+    {
+      "num": 60,
+      "answer": "③",
+      "status": "추론",
+      "why": "심재는 변재보다 비중·강도·내구성은 크고 신축성은 작다.",
+      "frame": "frame_146.jpg",
       "source": "solve"
     }
   ]

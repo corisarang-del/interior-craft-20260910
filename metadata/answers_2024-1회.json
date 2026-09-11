@@ -5,6 +5,7 @@
     "1": {"answer": "③", "status": "확정", "source": "image", "why": "천장 설명 옳은 것 ③ 체크"},
     "3": {"answer": "①", "status": "확정", "source": "image", "why": "점은 크기와 위치만 있다. ①이 틀림 체크"},
     "5": {"answer": "④", "status": "확정", "source": "image", "why": "욕실 기능 통합이라는 ④가 틀림. 독립 구성"},
-    "31": {"answer": "③", "status": "확정", "source": "image", "why": "방식은 건조 유지. 습윤 유지라는 ③이 틀림"}
+    "31": {"answer": "③", "status": "확정", "source": "image", "why": "방식은 건조 유지. 습윤 유지라는 ③이 틀림"},
+    "2": {"answer": "①", "status": "확정", "source": "image", "why": "점은 크기·위치만. 면적이 있다는 ①이 틀림"}
   }
 }

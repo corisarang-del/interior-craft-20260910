@@ -13,6 +13,9 @@
     "31": {"answer": "③", "status": "확정", "source": "image", "why": "개수-준비-조리-가열-배선 ③ 체크"},
     "32": {"answer": "③", "status": "확정", "source": "image", "why": "CO2 증가 시 산소 감소 ③ 체크"},
     "50": {"answer": "②", "status": "확정", "source": "image", "why": "분말도=블레인법 ② 체크"},
-    "60": {"answer": "①", "status": "확정", "source": "image", "why": "가장 단단한 연필=3H ① 체크"}
+    "60": {"answer": "①", "status": "확정", "source": "image", "why": "가장 단단한 연필=3H ① 체크"},
+    "2": {"answer": "③", "status": "확정", "source": "image", "why": "넓은 공간 안정감=높이 낮춤. 유리창 최대는 더 넓어 보임"},
+    "5": {"answer": "④", "status": "추론", "source": "solve", "why": "리듬 요소 아닌 것=방사"},
+    "13": {"answer": "④", "status": "확정", "source": "image", "why": "집성목재 장점 아닌 것=톱밥 폐재 이용 경제 ④ 체크"}
   }
 }

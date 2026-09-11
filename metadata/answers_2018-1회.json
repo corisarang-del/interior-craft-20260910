@@ -18,6 +18,7 @@
     "14": {"answer": "④", "status": "추론", "source": "solve", "why": "태양광 기준 비슷한 색=연색성"},
     "15": {"answer": "③", "status": "추론", "source": "solve", "why": "대류=유체 내부 온도차 순환"},
     "16": {"answer": "④", "status": "확정", "source": "image", "why": "바닥 높이차 연속성 준다는 ④가 틀림. 자막"},
+    "17": {"answer": "④", "status": "추론", "source": "solve", "why": "다수 점은 리듬 표현 가능. 없다는 ④가 틀림"},
     "24": {"answer": "②", "status": "확정", "source": "image", "why": "자연재료 질감 친근감 ② 체크"},
     "25": {"answer": "④", "status": "확정", "source": "image", "why": "클리어래커 외부용 곤란 ④"},
     "26": {"answer": "④", "status": "확정", "source": "image", "why": "방부제 펜타클로로페놀 ④ 체크"},

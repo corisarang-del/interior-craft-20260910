@@ -397,70 +397,6 @@
       "source": "image"
     },
     {
-      "num": 49,
-      "answer": null,
-      "status": "미확정",
-      "why": "vision err FileNotFoundError",
-      "frame": "frame_129.jpg",
-      "source": "solve"
-    },
-    {
-      "num": 50,
-      "answer": null,
-      "status": "미확정",
-      "why": "vision err FileNotFoundError",
-      "frame": "frame_130.jpg",
-      "source": "solve"
-    },
-    {
-      "num": 52,
-      "answer": null,
-      "status": "미확정",
-      "why": "vision err FileNotFoundError",
-      "frame": "frame_136.jpg",
-      "source": "solve"
-    },
-    {
-      "num": 54,
-      "answer": null,
-      "status": "미확정",
-      "why": "vision err FileNotFoundError",
-      "frame": "frame_139.jpg",
-      "source": "solve"
-    },
-    {
-      "num": 56,
-      "answer": null,
-      "status": "미확정",
-      "why": "vision err FileNotFoundError",
-      "frame": "frame_143.jpg",
-      "source": "solve"
-    },
-    {
-      "num": 57,
-      "answer": null,
-      "status": "미확정",
-      "why": "vision err FileNotFoundError",
-      "frame": "frame_145.jpg",
-      "source": "solve"
-    },
-    {
-      "num": 58,
-      "answer": null,
-      "status": "미확정",
-      "why": "vision err FileNotFoundError",
-      "frame": "frame_148.jpg",
-      "source": "solve"
-    },
-    {
-      "num": 60,
-      "answer": null,
-      "status": "미확정",
-      "why": "vision err FileNotFoundError",
-      "frame": "frame_149.jpg",
-      "source": "solve"
-    },
-    {
       "answer": null,
       "status": "미확정",
       "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
@@ -722,6 +658,70 @@
       "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
       "num": 47,
       "frame": "frame_127.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 49,
+      "frame": "frame_129.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 50,
+      "frame": "frame_130.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 52,
+      "frame": "frame_136.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 54,
+      "frame": "frame_139.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 56,
+      "frame": "frame_143.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 57,
+      "frame": "frame_145.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 58,
+      "frame": "frame_148.jpg",
+      "source": "solve"
+    },
+    {
+      "answer": null,
+      "status": "미확정",
+      "why": "vision fail {\"error\":\"model_use_failed\",\"message\":\"Rate limited — please try again later\"}\n",
+      "num": 60,
+      "frame": "frame_149.jpg",
       "source": "solve"
     }
   ]

@@ -3,6 +3,11 @@
   "replace_note_image": false,
   "answers": {
     "1": {"answer": "③", "status": "확정", "source": "image", "why": "조명설계 최우선=소요조도 결정 ③ 밑줄"},
-    "2": {"answer": "②", "status": "확정", "source": "image", "why": "개구부 단열 위해 크게라는 ②가 틀림"}
+    "2": {"answer": "②", "status": "확정", "source": "image", "why": "개구부 단열 위해 크게라는 ②가 틀림"},
+    "6": {"answer": "①", "status": "확정", "source": "image", "why": "물체와 인간 관계=척도"},
+    "7": {"answer": "④", "status": "추론", "source": "solve", "why": "인체공학과 먼 것=일반 창의 크기"},
+    "8": {"answer": "①", "status": "확정", "source": "image", "why": "침착 평형=균형 ① 체크"},
+    "9": {"answer": "①", "status": "확정", "source": "image", "why": "한식 공간 융통성 낮다는 ①이 틀림"},
+    "32": {"answer": "①", "status": "확정", "source": "image", "why": "하중 지속 변형 증가=크리프"}
   }
 }

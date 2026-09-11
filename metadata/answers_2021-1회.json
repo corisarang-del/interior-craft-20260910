@@ -9,6 +9,14 @@
     "5": {"answer": "②", "status": "확정", "source": "image", "why": "원룸은 활동·취침 구분. 구분하지 않는다는 ②가 틀림"},
     "6": {"answer": "④", "status": "확정", "source": "image", "why": "AIDMA의 M은 Memory. Money ④가 틀림"},
     "7": {"answer": "②", "status": "확정", "source": "image", "why": "출입 적고 오래 머무름=폐쇄형 ② 체크"},
-    "8": {"answer": "③", "status": "확정", "source": "image", "why": "보행동선+휴식=몰"}
+    "8": {"answer": "③", "status": "확정", "source": "image", "why": "보행동선+휴식=몰"},
+    "9": {"answer": "④", "status": "추론", "source": "solve", "why": "쇼윈도 평면형식에 돌출형 없음"},
+    "12": {"answer": "①", "status": "확정", "source": "image", "why": "벽면 떨어뜨려 전시=아일랜드 ① 체크"},
+    "20": {"answer": "①", "status": "확정", "source": "image", "why": "조도 단위 lx ① 체크"},
+    "31": {"answer": "①", "status": "확정", "source": "image", "why": "키치 ① 체크"},
+    "32": {"answer": "②", "status": "확정", "source": "image", "why": "자연형태가 기하보다 질서 있다는 ②가 틀림"},
+    "40": {"answer": "①", "status": "확정", "source": "image", "why": "중성화 억제 방법 중 화면 체크 ①"},
+    "50": {"answer": "④", "status": "추론", "source": "solve", "why": "AE제는 동일 W/C에서 압축강도 감소. 증가라는 ④가 틀림"},
+    "60": {"answer": "③", "status": "확정", "source": "image", "why": "도면 길이방향 좌우를 정위치로 한다는 ③이 틀림. 자막 A열"}
   }
 }

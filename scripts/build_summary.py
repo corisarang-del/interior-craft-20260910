@@ -14,6 +14,45 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 VAULT = "/var/minis/mounts/minis1/obsidian-vault/지식/실내건축기능사"
 OCR_DIR = os.path.join(ROOT, "raw/youtube/ocr")
 NOTE_DIR = os.path.join(ROOT, "out/notes")
+META_DIR = os.path.join(ROOT, "metadata")
+
+
+def load_answer_index():
+    """Load per-round answer/status metadata keyed by (round, question number)."""
+    index = {}
+    if not os.path.isdir(META_DIR):
+        return index
+    for name in os.listdir(META_DIR):
+        if not (name.startswith("answers_") and name.endswith(".json")):
+            continue
+        path = os.path.join(META_DIR, name)
+        try:
+            data = json.load(open(path, encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        rid = data.get("round") or name[len("answers_"):-len(".json")]
+        for num, info in (data.get("answers") or {}).items():
+            if isinstance(info, dict):
+                index[(str(rid), str(num))] = info
+    return index
+
+
+def format_member_answers(members, answer_index):
+    values = []
+    for member in members:
+        rid = str(member["round"])
+        num = str(member["num"])
+        info = answer_index.get((rid, num), {})
+        answer = info.get("answer")
+        status = info.get("status")
+        if not answer or status == "미확정":
+            value = "미확정"
+        else:
+            value = str(answer)
+            if status == "추론":
+                value += " (추론)"
+        values.append(f"{rid} {num}번 {value}")
+    return "> **정답**: " + "; ".join(values)
 
 
 def round_year(rid):
@@ -61,7 +100,8 @@ def stems_from_round(rnd):
     return items
 
 
-def render_summary(ranked):
+def render_summary(ranked, answer_index=None):
+    answer_index = answer_index or {}
     lines = [
         "---",
         "날짜: 2026-09-11",
@@ -95,6 +135,7 @@ def render_summary(ranked):
             else:
                 links.append(f"{m['round']} {m['num']}번")
         lines.append("> **같은 유형 출제**: " + ", ".join(links))
+        lines.append(format_member_answers(members, answer_index))
         lines.append("")
     return "\n".join(lines)
 
@@ -105,7 +146,7 @@ def main():
     for rnd in data["rounds"]:
         items.extend(stems_from_round(rnd))
     ranked = top_n(items, limit=100)
-    md = render_summary(ranked)
+    md = render_summary(ranked, load_answer_index())
     out = os.path.join(ROOT, "out/notes", "기출핵심요약.md")
     vault = os.path.join(VAULT, "기출핵심요약", "실내건축기능사.md")
     os.makedirs(os.path.dirname(out), exist_ok=True)

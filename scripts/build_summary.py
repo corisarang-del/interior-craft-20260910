@@ -55,6 +55,22 @@ def format_member_answers(members, answer_index):
     return "> **정답**: " + "; ".join(values)
 
 
+def format_member_links(members, available_questions=None):
+    """Create vault-scoped links so same-named electrician notes cannot resolve."""
+    available_questions = available_questions or set()
+    links = []
+    for member in members:
+        rid = str(member["round"])
+        num = str(member["num"])
+        if (rid, num) in available_questions:
+            links.append(
+                f"[[지식/실내건축기능사/기출문제/{rid}#{num}|{rid} {num}번]]"
+            )
+        else:
+            links.append(f"{rid} {num}번")
+    return links
+
+
 def round_year(rid):
     return int(rid.split("-")[0])
 
@@ -127,13 +143,12 @@ def render_summary(ranked, answer_index=None):
         else:
             lines.append(f"- 대표: {rep['round']} {rep['num']}번 (이미지 없음)")
             lines.append("")
-        links = []
+        available_questions = set()
         for m in members:
             note = os.path.join(VAULT, "기출문제", f"{m['round']}.md")
             if os.path.isfile(note):
-                links.append(f"[[{m['round']}#{m['num']}|{m['round']} {m['num']}번]]")
-            else:
-                links.append(f"{m['round']} {m['num']}번")
+                available_questions.add((str(m["round"]), str(m["num"])))
+        links = format_member_links(members, available_questions)
         lines.append("> **같은 유형 출제**: " + ", ".join(links))
         lines.append(format_member_answers(members, answer_index))
         lines.append("")

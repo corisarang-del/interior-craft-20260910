@@ -5,7 +5,7 @@ import unittest
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
-from build_summary import format_member_answers
+from build_summary import format_member_answers, format_member_links
 
 
 class TestSummaryAnswers(unittest.TestCase):
@@ -22,6 +22,14 @@ class TestSummaryAnswers(unittest.TestCase):
         self.assertEqual(
             line,
             "> **정답**: 2018-1회 50번 ③; 2024-1회 51번 ④ (추론)",
+        )
+
+    def test_links_are_scoped_to_interior_craft_vault(self):
+        members = [{"round": "2018-1회", "num": 50}]
+        links = format_member_links(members, {("2018-1회", "50")})
+        self.assertEqual(
+            links,
+            ["[[지식/실내건축기능사/기출문제/2018-1회#50|2018-1회 50번]]"],
         )
 
     def test_keeps_unconfirmed_explicit(self):

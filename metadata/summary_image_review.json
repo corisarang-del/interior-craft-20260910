@@ -1,0 +1,1073 @@
+{
+  "2018-1회#50": {
+    "id": "2018-1회#50",
+    "displayed_number": 50,
+    "topic": "제도용 분할 도구",
+    "stem_summary": "치수를 자나 삼각자의 눈금으로 잰 뒤 같은 길이로 분할할 때 사용하는 제도 용구를 묻는다.",
+    "visible_answer": null
+  },
+  "2021-3회#46": {
+    "id": "2021-3회#46",
+    "displayed_number": 46,
+    "topic": "제도용 분할 도구",
+    "stem_summary": "치수를 자나 삼각자의 눈금으로 잰 후 같은 길이로 분할할 때 사용하는 제도 용구를 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#51": {
+    "id": "2024-1회#51",
+    "displayed_number": 51,
+    "topic": "제도용 분할 도구",
+    "stem_summary": "치수를 자 또는 삼각자의 눈금으로 잰 뒤 제도지에 같은 길이로 분할할 때 사용하는 도구를 묻는다.",
+    "visible_answer": null
+  },
+  "2018-1회#54": {
+    "id": "2018-1회#54",
+    "displayed_number": 54,
+    "topic": "건축제도 치수 기입 원칙",
+    "stem_summary": "건축제도에서 치수를 기입하는 방법에 관한 설명 중 옳지 않은 것을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2021-3회#33": {
+    "id": "2021-3회#33",
+    "displayed_number": 33,
+    "topic": "건축제도 치수 기입 원칙",
+    "stem_summary": "건축제도의 치수 기입 방법에 관한 설명 중 옳은 것을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-3회#49": {
+    "id": "2024-3회#49",
+    "displayed_number": 49,
+    "topic": "건축제도 치수 기입 원칙",
+    "stem_summary": "건축제도에서 치수를 기입하는 방법에 관한 설명 중 옳지 않은 것을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2020-1회#44": {
+    "id": "2020-1회#44",
+    "displayed_number": 44,
+    "topic": "이오토막 벽돌쌓기",
+    "stem_summary": "벽돌 벽의 모서리나 끝에 반절 또는 이오토막을 사용해 가장 튼튼하게 쌓는 방법을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-3회#39": {
+    "id": "2024-3회#39",
+    "displayed_number": 39,
+    "topic": "이오토막 벽돌쌓기",
+    "stem_summary": "벽돌 벽의 모서리나 끝에 반절이나 이오토막을 사용하는 가장 튼튼한 쌓기 방법을 묻는다.",
+    "visible_answer": null
+  },
+  "2019-1회#7": {
+    "id": "2019-1회#7",
+    "displayed_number": 7,
+    "topic": "실내공간계획과 인체척도",
+    "stem_summary": "실내공간 계획에서 가장 중요하게 고려할 요소를 묻는다.",
+    "visible_answer": 4
+  },
+  "2021-3회#5": {
+    "id": "2021-3회#5",
+    "displayed_number": 6,
+    "topic": "공간의 차단적 분할 재료",
+    "stem_summary": "공간의 차단적 분할에 사용되지 않는 재료를 고르는 문제이다.",
+    "visible_answer": 4
+  },
+  "2019-1회#27": {
+    "id": "2019-1회#27",
+    "displayed_number": 27,
+    "topic": "강재 열처리 방법과 특징",
+    "stem_summary": "강재 열처리에 관한 설명 중 옳지 않은 내용을 찾는다.",
+    "visible_answer": 3
+  },
+  "2019-1회#47": {
+    "id": "2019-1회#47",
+    "displayed_number": 47,
+    "topic": "도면 크기와 제도 규격",
+    "stem_summary": "KS F 1501에 따른 도면 크기 설명 중 바른 내용을 묻는다.",
+    "visible_answer": 3
+  },
+  "2019-1회#55": {
+    "id": "2019-1회#55",
+    "displayed_number": 55,
+    "topic": "투시도법 주요 용어 정의",
+    "stem_summary": "건축물 투시도법에 사용되는 용어 설명 중 옳지 않은 것을 찾는다.",
+    "visible_answer": null
+  },
+  "2023-1회#57": {
+    "id": "2023-1회#57",
+    "displayed_number": 57,
+    "topic": "투시도법의 기본 요소",
+    "stem_summary": "건축물 투시도법 용어에 대한 설명 중 옳지 않은 것을 고른다.",
+    "visible_answer": 4
+  },
+  "2020-1회#6": {
+    "id": "2020-1회#6",
+    "displayed_number": 6,
+    "topic": "조선시대 주택 공간구성",
+    "stem_summary": "조선시대 주택구조에 관한 설명 중 옳지 않은 내용을 묻는다.",
+    "visible_answer": null
+  },
+  "2022-3회#15": {
+    "id": "2022-3회#15",
+    "displayed_number": 15,
+    "topic": "조선시대 주택 공간구성",
+    "stem_summary": "조선시대 주택구조에 관한 설명 중 옳지 않은 내용을 고른다.",
+    "visible_answer": 2
+  },
+  "2020-1회#8": {
+    "id": "2020-1회#8",
+    "displayed_number": 8,
+    "topic": "모듈러 코디네이션의 특징",
+    "stem_summary": "모듈러 코디네이션에 관한 설명 중 옳지 않은 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2021-3회#50": {
+    "id": "2021-3회#50",
+    "displayed_number": 50,
+    "topic": "모듈러 코디네이션의 특징",
+    "stem_summary": "모듈러 코디네이션에 관한 설명 중 옳지 않은 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2020-1회#16": {
+    "id": "2020-1회#16",
+    "displayed_number": 16,
+    "topic": "건축화 조명의 종류",
+    "stem_summary": "벽면 전체 또는 일부를 광원화하고 벽면에 매입하는 건축화 조명의 종류를 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2023-1회#17": {
+    "id": "2023-1회#17",
+    "displayed_number": 17,
+    "topic": "건축화 조명의 종류",
+    "stem_summary": "벽면 전체 또는 일부를 광원화하는 방식에 해당하는 건축화 조명의 종류를 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2021-3회#41": {
+    "id": "2021-3회#41",
+    "displayed_number": 41,
+    "topic": "실내조명 설계 우선순위",
+    "stem_summary": "실내조명 설계 과정에서 가장 우선적으로 결정해야 하는 사항을 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2022-1회#1": {
+    "id": "2022-1회#1",
+    "displayed_number": 2,
+    "topic": "개구부의 기능과 역할",
+    "stem_summary": "개구부에 관한 설명 중 옳지 않은 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2021-3회#52": {
+    "id": "2021-3회#52",
+    "displayed_number": 52,
+    "topic": "혼합공기의 건구온도 계산",
+    "stem_summary": "서로 다른 온도와 질량의 공기를 단열 혼합했을 때 혼합공기의 건구온도를 계산하는 문제이다.",
+    "visible_answer": null
+  },
+  "2022-1회#40": {
+    "id": "2022-1회#40",
+    "displayed_number": 40,
+    "topic": "벽면 결로 방지 방법",
+    "stem_summary": "벽면 결로를 방지하는 방법 중 옳지 않은 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2023-1회#40": {
+    "id": "2023-1회#40",
+    "displayed_number": 40,
+    "topic": "벽면 결로 방지 방법",
+    "stem_summary": "벽면의 결로를 방지하는 방법 중 옳지 않은 것을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2022-1회#42": {
+    "id": "2022-1회#42",
+    "displayed_number": 42,
+    "topic": "점토벽돌 규격과 치수",
+    "stem_summary": "KS L 4201에 따른 점토벽돌의 올바른 치수를 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2023-1회#42": {
+    "id": "2023-1회#42",
+    "displayed_number": 42,
+    "topic": "점토벽돌 규격과 치수",
+    "stem_summary": "KS L 4201에 따른 점토벽돌의 올바른 치수를 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2022-3회#26": {
+    "id": "2022-3회#26",
+    "displayed_number": 26,
+    "topic": "천연 아스팔트 종류",
+    "stem_summary": "제시된 아스팔트 중 천연 아스팔트에 속하지 않는 것을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2023-3회#38": {
+    "id": "2023-3회#38",
+    "displayed_number": 38,
+    "topic": "천연 아스팔트 종류",
+    "stem_summary": "제시된 아스팔트 중 천연 아스팔트에 속하지 않는 것을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#1": {
+    "id": "2024-1회#1",
+    "displayed_number": 1,
+    "topic": "천장 형태와 실내 공간감",
+    "stem_summary": "실내 기본요소인 천장에 관한 설명 중 옳은 것을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#19": {
+    "id": "2024-3회#19",
+    "displayed_number": 19,
+    "topic": "천장 형태와 공간감 변화",
+    "stem_summary": "천장에 관한 설명 중 옳은 것을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#18": {
+    "id": "2024-1회#18",
+    "displayed_number": 15,
+    "topic": "자연환기와 풍력 관계",
+    "stem_summary": "자연환기의 원리와 특성에 관한 설명 중 옳지 않은 것을 고르는 문제이다.",
+    "visible_answer": 1
+  },
+  "2024-1회#22": {
+    "id": "2024-1회#22",
+    "displayed_number": 22,
+    "topic": "혼화재의 종류와 용도",
+    "stem_summary": "제시된 재료 중 콘크리트 혼화재에 해당하는 것을 고르는 문제이다.",
+    "visible_answer": 3
+  },
+  "2024-3회#4": {
+    "id": "2024-3회#4",
+    "displayed_number": 4,
+    "topic": "의자 배치와 통행 공간",
+    "stem_summary": "동일한 두 의자를 나란히 배치하여 사람이 지나갈 수 있도록 설계한 의자의 유형을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-3회#41": {
+    "id": "2024-3회#41",
+    "displayed_number": 41,
+    "topic": "철골 웨브 좌굴 방지",
+    "stem_summary": "철골구조 판보에서 웨브의 국부좌굴을 방지하기 위해 사용하는 부재를 묻는다.",
+    "visible_answer": null
+  },
+  "2024-3회#51": {
+    "id": "2024-3회#51",
+    "displayed_number": 51,
+    "topic": "원호 이외 곡선 제도 도구",
+    "stem_summary": "원호 이외의 곡선을 그릴 때 사용하는 제도용구를 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2025-1회#1": {
+    "id": "2025-1회#1",
+    "displayed_number": 1,
+    "topic": "천장재료의 특성과 적용",
+    "stem_summary": "천장재료에 관한 설명 중 옳지 않은 내용을 찾는 문제이다.",
+    "visible_answer": null
+  },
+  "2025-1회#17": {
+    "id": "2025-1회#17",
+    "displayed_number": 18,
+    "topic": "직렬형 가구 배치 특징",
+    "stem_summary": "상점의 가구 배치 유형 중 직렬형 배치의 특징으로 옳지 않은 설명을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2021-3회#55": {
+    "id": "2021-3회#55",
+    "displayed_number": 55,
+    "topic": "실내 음향계획의 기본 원칙",
+    "stem_summary": "실내 음향계획에 관한 설명 중 옳지 않은 내용을 찾는 문제이다.",
+    "visible_answer": null
+  },
+  "2022-1회#59": {
+    "id": "2022-1회#59",
+    "displayed_number": 59,
+    "topic": "도면 작성과 보조선 사용",
+    "stem_summary": "도면을 작성할 때 유의해야 할 사항 중 옳지 않은 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2022-3회#6": {
+    "id": "2022-3회#6",
+    "displayed_number": 6,
+    "topic": "주택 침실계획의 기본원칙",
+    "stem_summary": "주택 침실계획에 관한 설명 중 옳지 않은 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2022-3회#56": {
+    "id": "2022-3회#56",
+    "displayed_number": 57,
+    "topic": "고력볼트접합의 대표적 접합방식",
+    "stem_summary": "고력볼트접합에서 힘을 전달하는 대표적인 접합방식을 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2022-3회#23": {
+    "id": "2022-3회#23",
+    "displayed_number": 23,
+    "topic": "형태지각의 원리와 착시",
+    "stem_summary": "잔과 사람 얼굴로 보이는 그림이 나타내는 형태지각의 원리를 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2022-3회#25": {
+    "id": "2022-3회#25",
+    "displayed_number": 25,
+    "topic": "조닝에 의한 주거공간 구분",
+    "stem_summary": "주거공간을 조닝하는 방법 중 가장 거리가 먼 구분 기준을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#3": {
+    "id": "2024-1회#3",
+    "displayed_number": 3,
+    "topic": "점의 크기와 위치에 따른 조형",
+    "stem_summary": "디자인 요소 중 점에 관한 설명에서 옳지 않은 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#5": {
+    "id": "2024-1회#5",
+    "displayed_number": 5,
+    "topic": "주택 욕실의 계획 원칙",
+    "stem_summary": "주택 욕실계획에 관한 설명 중 옳지 않은 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#6": {
+    "id": "2024-1회#6",
+    "displayed_number": 6,
+    "topic": "실내공간의 기본 구성요소",
+    "stem_summary": "실내공간을 구성하는 기본요소에 관한 설명 중 옳지 않은 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#7": {
+    "id": "2024-1회#7",
+    "displayed_number": 7,
+    "topic": "비대칭적 균형의 조형 원리",
+    "stem_summary": "대칭적 균형에 관한 설명 중 옳지 않은 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#8": {
+    "id": "2024-1회#8",
+    "displayed_number": 8,
+    "topic": "실내공간을 넓어 보이게 하는 방법",
+    "stem_summary": "실내 공간이 실제 크기보다 넓게 보이도록 하는 방법을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#10": {
+    "id": "2024-1회#10",
+    "displayed_number": 10,
+    "topic": "문 위치 결정 고려사항",
+    "stem_summary": "문 위치를 결정할 때 고려해야 할 사항 중 거리가 먼 것을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#11": {
+    "id": "2024-1회#11",
+    "displayed_number": 11,
+    "topic": "양식과 한식 주택 특징 비교",
+    "stem_summary": "양식 주택과 비교한 한식 주택의 특징 중 옳지 않은 것을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#13": {
+    "id": "2024-1회#13",
+    "displayed_number": 13,
+    "topic": "간접조명의 특성과 장점",
+    "stem_summary": "간접조명에 관한 설명 중 옳지 않은 것을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#14": {
+    "id": "2024-1회#14",
+    "displayed_number": 14,
+    "topic": "실내디자인 리듬감 형성 방법",
+    "stem_summary": "실내디자인에서 리듬감을 주는 방법 중 가장 거리가 먼 것을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#16": {
+    "id": "2024-1회#16",
+    "displayed_number": 16,
+    "topic": "주택 부엌 크기 결정 요소",
+    "stem_summary": "주택 부엌의 크기를 결정하는 요소에 속하지 않는 것을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#17": {
+    "id": "2024-1회#17",
+    "displayed_number": 17,
+    "topic": "부엌과 식당 계획의 작업동선",
+    "stem_summary": "주택의 부엌과 식당 계획에서 가장 중요하게 고려할 사항을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#19": {
+    "id": "2024-1회#19",
+    "displayed_number": 19,
+    "topic": "실내 잔향 발생 현상",
+    "stem_summary": "음원이 중지된 뒤에도 소리가 실내에 남는 현상의 명칭을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#24": {
+    "id": "2024-1회#24",
+    "displayed_number": 24,
+    "topic": "석고보드의 장단점",
+    "stem_summary": "석고보드에 관한 설명 중 옳지 않은 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#25": {
+    "id": "2024-1회#25",
+    "displayed_number": 25,
+    "topic": "투명 합성수지의 종류",
+    "stem_summary": "투명도가 높고 유기유리로 불리는 합성수지의 종류를 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#28": {
+    "id": "2024-1회#28",
+    "displayed_number": 28,
+    "topic": "점토제품 백화 방지대책",
+    "stem_summary": "점토제품에 발생하는 백화를 방지하는 방법 중 옳지 않은 것을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#31": {
+    "id": "2024-1회#31",
+    "displayed_number": 31,
+    "topic": "금속 부식 방지방법",
+    "stem_summary": "금속의 방식 방법에 대한 설명 중 틀린 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#39": {
+    "id": "2024-1회#39",
+    "displayed_number": 32,
+    "topic": "미장재료의 내화성 원리",
+    "stem_summary": "미장재료 중 물과 결합해 열을 흡수하여 내화성을 나타내는 재료를 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#12": {
+    "id": "2024-1회#12",
+    "displayed_number": 12,
+    "topic": "일광조절장치의 종류",
+    "stem_summary": "창문으로 들어오는 광량과 빛 환경을 조절하는 장치에 속하지 않는 것을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#34": {
+    "id": "2024-1회#34",
+    "displayed_number": 34,
+    "topic": "미장재료의 건조수축 특성",
+    "stem_summary": "미장재료에 관한 설명 중 옳지 않은 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#35": {
+    "id": "2024-1회#35",
+    "displayed_number": 35,
+    "topic": "석재의 내화성 비교",
+    "stem_summary": "제시된 석재 중 내화성이 가장 높은 재료를 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#36": {
+    "id": "2024-1회#36",
+    "displayed_number": 36,
+    "topic": "아스팔트 방수공사용 재료",
+    "stem_summary": "동식물성 유지와 광물질 분말을 혼합해 일반 지붕 방수공사에 사용하는 재료를 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#37": {
+    "id": "2024-1회#37",
+    "displayed_number": 37,
+    "topic": "지붕공사 금속판 잇기 방법",
+    "stem_summary": "지붕공사에서 금속판을 연결하는 방법이 아닌 것을 고르게 한다.",
+    "visible_answer": null
+  },
+  "2024-1회#38": {
+    "id": "2024-1회#38",
+    "displayed_number": 38,
+    "topic": "콘크리트 혼화제의 기능",
+    "stem_summary": "콘크리트의 작업성이나 동결융해 저항성을 향상시키는 혼화제를 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#40": {
+    "id": "2024-1회#40",
+    "displayed_number": 40,
+    "topic": "시멘트 경화 시 용적 팽창",
+    "stem_summary": "시멘트가 경화할 때 용적이 팽창하는 현상의 명칭을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#41": {
+    "id": "2024-1회#41",
+    "displayed_number": 41,
+    "topic": "초기강도가 큰 시멘트 종류",
+    "stem_summary": "보통포틀랜드시멘트보다 초기 고강도를 발휘하는 시멘트를 고르게 한다.",
+    "visible_answer": null
+  },
+  "2024-1회#42": {
+    "id": "2024-1회#42",
+    "displayed_number": 42,
+    "topic": "석재의 강도 특성 비교",
+    "stem_summary": "석재의 여러 강도 중 일반적으로 가장 큰 강도를 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#44": {
+    "id": "2024-1회#44",
+    "displayed_number": 44,
+    "topic": "단면용 재료 표시 기호",
+    "stem_summary": "그림에 제시된 사선 해칭 단면용 재료 표시 기호가 무엇을 의미하는지 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#45": {
+    "id": "2024-1회#45",
+    "displayed_number": 45,
+    "topic": "트레이싱지의 특성과 용도",
+    "stem_summary": "트레이싱지의 성질과 도면 제작 용도에 관한 설명 중 옳은 것을 고르게 한다.",
+    "visible_answer": null
+  },
+  "2024-1회#46": {
+    "id": "2024-1회#46",
+    "displayed_number": 46,
+    "topic": "건축설계도면의 종류와 구분",
+    "stem_summary": "건축설계도 중 계획설계도에 해당하지 않는 도면을 고른다.",
+    "visible_answer": 2
+  },
+  "2024-1회#47": {
+    "id": "2024-1회#47",
+    "displayed_number": 47,
+    "topic": "건축제도 선긋기 방법",
+    "stem_summary": "건축제도에서 수평선과 수직선을 긋는 방법 중 옳지 않은 설명을 고른다.",
+    "visible_answer": 4
+  },
+  "2024-1회#48": {
+    "id": "2024-1회#48",
+    "displayed_number": 48,
+    "topic": "벽돌쌓기의 기본 원칙",
+    "stem_summary": "벽돌쌓기 작업에서 지켜야 할 원칙이 아닌 것을 고른다.",
+    "visible_answer": 4
+  },
+  "2024-1회#50": {
+    "id": "2024-1회#50",
+    "displayed_number": 50,
+    "topic": "평면도 절단높이 기준",
+    "stem_summary": "평면도를 작성할 때 건물 바닥면에서 절단하는 일반적인 높이를 묻는다.",
+    "visible_answer": 2
+  },
+  "2024-1회#53": {
+    "id": "2024-1회#53",
+    "displayed_number": 53,
+    "topic": "내부 입면도 표현 방법",
+    "stem_summary": "내부 입면도 작성과 표현에 관한 설명 중 옳지 않은 것을 고른다.",
+    "visible_answer": null
+  },
+  "2024-1회#54": {
+    "id": "2024-1회#54",
+    "displayed_number": 54,
+    "topic": "인체의 열손실 발생 요인",
+    "stem_summary": "인체에서 열의 손실을 일으키는 요인으로 볼 수 없는 것을 고른다.",
+    "visible_answer": 4
+  },
+  "2024-1회#56": {
+    "id": "2024-1회#56",
+    "displayed_number": 56,
+    "topic": "건축제도 축척의 종류",
+    "stem_summary": "건축제도에 일반적으로 사용되지 않는 축척을 고른다.",
+    "visible_answer": 2
+  },
+  "2024-1회#58": {
+    "id": "2024-1회#58",
+    "displayed_number": 58,
+    "topic": "속빈 콘크리트 블록 압축강도",
+    "stem_summary": "3급 A종 속빈 콘크리트 블록의 최소 압축강도를 묻는다.",
+    "visible_answer": 1
+  },
+  "2024-1회#60": {
+    "id": "2024-1회#60",
+    "displayed_number": 60,
+    "topic": "고력볼트의 특성과 적용",
+    "stem_summary": "철골구조에서 고력볼트 접합에 관한 설명 중 옳지 않은 것을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-3회#1": {
+    "id": "2024-3회#1",
+    "displayed_number": 1,
+    "topic": "디자인 용어 키치의 의미",
+    "stem_summary": "디자인에서 대중적이거나 저속하다는 의미를 나타내는 용어를 묻는다.",
+    "visible_answer": null
+  },
+  "2024-3회#2": {
+    "id": "2024-3회#2",
+    "displayed_number": 2,
+    "topic": "구매심리 AIDMA 단계",
+    "stem_summary": "상업공간 설계 시 고려되는 고객 구매심리 과정에 속하지 않는 단계를 묻는다.",
+    "visible_answer": null
+  },
+  "2024-3회#3": {
+    "id": "2024-3회#3",
+    "displayed_number": 4,
+    "topic": "실내디자인 개념과 용어",
+    "stem_summary": "실내디자인과 관련된 개념 또는 용어 중 해당하는 것을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-3회#7": {
+    "id": "2024-3회#7",
+    "displayed_number": 7,
+    "topic": "가구와 설치물 배치 우선순위",
+    "stem_summary": "가구와 설치물의 배치를 결정할 때 가장 우선해야 할 사항을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-3회#12": {
+    "id": "2024-3회#12",
+    "displayed_number": 12,
+    "topic": "실내 문 위치와 치수 기준",
+    "stem_summary": "실내 구성요소 중 문에 관한 설명으로 옳지 않은 것을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-3회#15": {
+    "id": "2024-3회#15",
+    "displayed_number": 15,
+    "topic": "공간 형태와 공간감 강조",
+    "stem_summary": "공간의 형태에 관한 설명 중 옳은 것을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-3회#17": {
+    "id": "2024-3회#17",
+    "displayed_number": 17,
+    "topic": "실내디자인 평가 기준",
+    "stem_summary": "실내디자인을 평가하는 기준 중 주관성이 가장 큰 항목을 묻는다.",
+    "visible_answer": null
+  },
+  "2025-1회#31": {
+    "id": "2025-1회#31",
+    "displayed_number": 31,
+    "topic": "벽돌 모서리 끝부분 쌓기법",
+    "stem_summary": "벽돌 모서리나 끝부분에 반절이나 이오토막을 사용하는 가장 튼튼한 쌓기법을 묻는다.",
+    "visible_answer": null
+  },
+  "2017-1회#22": {
+    "id": "2017-1회#22",
+    "displayed_number": 18,
+    "topic": "명도가 높은 색의 실내 효과",
+    "stem_summary": "실내 공간에서 명도가 높은 색을 사용했을 때 적절하지 않은 효과를 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#34": {
+    "id": "2024-3회#34",
+    "displayed_number": 34,
+    "topic": "목재의 응력과 강도 변화",
+    "stem_summary": "목재에 대한 설명 중 옳지 않은 내용을 찾는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#36": {
+    "id": "2024-3회#36",
+    "displayed_number": 36,
+    "topic": "암순응에 따른 시각 적응 현상",
+    "stem_summary": "밝은 곳에서 갑자기 어두운 곳으로 들어갔을 때 시야가 회복되는 현상을 묻는다.",
+    "visible_answer": null
+  },
+  "2021-1회#12": {
+    "id": "2021-1회#12",
+    "displayed_number": 12,
+    "topic": "벽면에서 돌출된 전시 방법",
+    "stem_summary": "벽면에서 전시물을 떼어내어 전시하는 특수 전시 방법을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#14": {
+    "id": "2024-3회#14",
+    "displayed_number": 14,
+    "topic": "VMD의 목적과 거리가 먼 항목",
+    "stem_summary": "VMD의 목적에 해당하지 않는 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#16": {
+    "id": "2024-3회#16",
+    "displayed_number": 16,
+    "topic": "벽면 돌출형 전시 방법 명칭",
+    "stem_summary": "관람자가 감상해야 할 조각물이나 모형을 벽면에서 띄워 전시하는 방법을 묻는다.",
+    "visible_answer": null
+  },
+  "2021-3회#10": {
+    "id": "2021-3회#10",
+    "displayed_number": 10,
+    "topic": "설치 위치에 따른 창의 종류",
+    "stem_summary": "설치 위치에 따른 창의 종류에 관한 설명 중 옳지 않은 것을 찾는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#18": {
+    "id": "2024-3회#18",
+    "displayed_number": 18,
+    "topic": "실내디자인의 궁극적 목적",
+    "stem_summary": "실내디자인이 추구하는 가장 본질적인 목적이 무엇인지 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#20": {
+    "id": "2024-3회#20",
+    "displayed_number": 20,
+    "topic": "설치 위치에 따른 창의 종류",
+    "stem_summary": "창의 설치 위치별 특징에 대한 설명 중 옳지 않은 내용을 묻는다.",
+    "visible_answer": null
+  },
+  "2022-3회#28": {
+    "id": "2022-3회#28",
+    "displayed_number": 28,
+    "topic": "방풍실에 설치하는 문의 종류",
+    "stem_summary": "출입자의 방풍과 다중 이용 장소에 적합한 문의 종류를 묻는다.",
+    "visible_answer": null
+  },
+  "2025-1회#35": {
+    "id": "2025-1회#35",
+    "displayed_number": 35,
+    "topic": "방풍실용 문의 설치 장소",
+    "stem_summary": "출입자 방풍 기능과 다중 이용 장소에 설치되는 문의 종류를 묻는다.",
+    "visible_answer": null
+  },
+  "2023-1회#56": {
+    "id": "2023-1회#56",
+    "displayed_number": 56,
+    "topic": "강구조 기둥의 좌굴 현상",
+    "stem_summary": "긴 강구조 기둥이 압축하중을 받아 휘어지는 현상의 명칭을 묻는다.",
+    "visible_answer": null
+  },
+  "2023-3회#57": {
+    "id": "2023-3회#57",
+    "displayed_number": 57,
+    "topic": "강구조 기둥의 하중 집중 현상",
+    "stem_summary": "편심모멘트로 압축부재가 허용강도에 이르기 전에 휘어지는 현상을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-3회#60": {
+    "id": "2024-3회#60",
+    "displayed_number": 60,
+    "topic": "강구조 기둥의 좌굴 발생 원리",
+    "stem_summary": "긴 장주가 압축하중을 받아 휘어지는 강구조 기둥의 현상을 묻는다.",
+    "visible_answer": null
+  },
+  "2017-1회#20": {
+    "id": "2017-1회#20",
+    "displayed_number": 20,
+    "topic": "음환경 설계의 잔향시간",
+    "stem_summary": "음환경 설계에서 잔향시간에 관한 설명 중 옳지 않은 내용을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-3회#31": {
+    "id": "2024-3회#31",
+    "displayed_number": 31,
+    "topic": "실내 음환경과 잔향시간",
+    "stem_summary": "음환경 설계에서 잔향시간의 의미와 관련 설명 중 옳지 않은 내용을 묻는다.",
+    "visible_answer": null
+  },
+  "2017-1회#38": {
+    "id": "2017-1회#38",
+    "displayed_number": 38,
+    "topic": "석재의 강도와 내화성",
+    "stem_summary": "강도와 내구성이 큰 석재 중 내화성이 약한 종류를 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#49": {
+    "id": "2024-1회#49",
+    "displayed_number": 49,
+    "topic": "석재의 강도와 내화성",
+    "stem_summary": "강도와 내구성이 크지만 내화성이 약한 석재를 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2017-1회#52": {
+    "id": "2017-1회#52",
+    "displayed_number": 52,
+    "topic": "삼각법 투상도의 명칭",
+    "stem_summary": "삼각법으로 그린 투상도에서 각 방향의 투상면 명칭을 판별한다.",
+    "visible_answer": null
+  },
+  "2024-3회#45": {
+    "id": "2024-3회#45",
+    "displayed_number": 45,
+    "topic": "삼각법 투상도의 명칭",
+    "stem_summary": "삼각법으로 작성한 투상도에서 제시된 방향의 투상면 명칭을 묻는다.",
+    "visible_answer": null
+  },
+  "2018-1회#52": {
+    "id": "2018-1회#52",
+    "displayed_number": 52,
+    "topic": "창문 인방보의 최소 걸침길이",
+    "stem_summary": "블록조에서 창문 인방보가 벽 단부에 걸쳐야 하는 최소 길이를 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#30": {
+    "id": "2024-1회#30",
+    "displayed_number": 30,
+    "topic": "창문 인방보의 최소 걸침길이",
+    "stem_summary": "블록조 창문 인방보의 벽 단부 최소 걸침길이를 선택하게 한다.",
+    "visible_answer": null
+  },
+  "2019-1회#5": {
+    "id": "2019-1회#5",
+    "displayed_number": 5,
+    "topic": "상점 출입구 구성요소 명칭",
+    "stem_summary": "상점의 쇼윈도와 출입구 주변 구성요소 및 장치의 총칭을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-3회#10": {
+    "id": "2024-3회#10",
+    "displayed_number": 10,
+    "topic": "상점 출입구 구성요소 명칭",
+    "stem_summary": "쇼윈도와 홀 입구 등을 포함한 상점 입체 구성요소의 명칭을 묻는다.",
+    "visible_answer": 1
+  },
+  "2020-1회#4": {
+    "id": "2020-1회#4",
+    "displayed_number": 4,
+    "topic": "수평 블라인드의 단점",
+    "stem_summary": "수평 블라인드의 장점과 비교하여 먼지 제거가 어려운 제품을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#9": {
+    "id": "2024-1회#9",
+    "displayed_number": 9,
+    "topic": "수평 블라인드의 단점",
+    "stem_summary": "수평 블라인드 중 먼지가 쌓이면 제거하기 어려운 유형을 묻는다.",
+    "visible_answer": null
+  },
+  "2020-1회#11": {
+    "id": "2020-1회#11",
+    "displayed_number": 11,
+    "topic": "우리나라 기후에 맞는 설계",
+    "stem_summary": "우리나라의 기후 조건에 맞지 않는 자연형 설계 방법을 찾는다.",
+    "visible_answer": null
+  },
+  "2024-1회#20": {
+    "id": "2024-1회#20",
+    "displayed_number": 20,
+    "topic": "우리나라 기후에 맞는 설계",
+    "stem_summary": "우리나라 기후 조건에 적합하지 않은 자연형 설계 방법을 묻는다.",
+    "visible_answer": null
+  },
+  "2020-1회#57": {
+    "id": "2020-1회#57",
+    "displayed_number": 57,
+    "topic": "트러스 구조의 공간 구성",
+    "stem_summary": "트러스를 종횡으로 배치해 입체적으로 넓은 공간을 만드는 구조를 묻는다.",
+    "visible_answer": null
+  },
+  "2025-1회#32": {
+    "id": "2025-1회#32",
+    "displayed_number": 32,
+    "topic": "트러스 구조의 공간 구성",
+    "stem_summary": "트러스를 종횡으로 배치하여 넓은 공간을 구성하는 구조 형식을 묻는다.",
+    "visible_answer": null
+  },
+  "2021-1회#42": {
+    "id": "2021-1회#42",
+    "displayed_number": 42,
+    "topic": "콘크리트 컨시스턴시 측정",
+    "stem_summary": "굳지 않은 콘크리트의 컨시스턴시를 측정하는 시험 방법을 묻는다.",
+    "visible_answer": null
+  },
+  "2024-1회#21": {
+    "id": "2024-1회#21",
+    "displayed_number": 21,
+    "topic": "콘크리트 컨시스턴시 측정",
+    "stem_summary": "콘크리트의 반죽질기를 측정하는 데 사용되는 시험을 묻는다.",
+    "visible_answer": null
+  },
+  "2021-3회#18": {
+    "id": "2021-3회#18",
+    "displayed_number": 18,
+    "topic": "조강시멘트의 용도와 부적합 공사",
+    "stem_summary": "조강포틀랜드 시멘트를 사용하기에 가장 부적합한 공사를 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#29": {
+    "id": "2024-3회#29",
+    "displayed_number": 29,
+    "topic": "목질보드의 종류와 특성",
+    "stem_summary": "합성수지 접착제와 방부제를 첨가해 만든 목질 보드의 종류를 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2021-3회#28": {
+    "id": "2021-3회#28",
+    "displayed_number": 28,
+    "topic": "황금비와 건축가",
+    "stem_summary": "인체 모듈에 황금비를 적용해야 한다고 주장한 건축가를 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2025-1회#27": {
+    "id": "2025-1회#27",
+    "displayed_number": 27,
+    "topic": "황금비를 주장한 건축가",
+    "stem_summary": "생활에 적합한 건축에서 인체 관련 모듈에 황금비를 적용해야 한다고 주장한 사람을 묻는다.",
+    "visible_answer": null
+  },
+  "2021-3회#36": {
+    "id": "2021-3회#36",
+    "displayed_number": 36,
+    "topic": "목구조 부위별 이음 방식",
+    "stem_summary": "목구조의 구조 부위와 해당 이음 방식이 서로 잘못 연결된 보기를 찾는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#58": {
+    "id": "2024-3회#58",
+    "displayed_number": 58,
+    "topic": "목구조 이음 방식의 올바른 연결",
+    "stem_summary": "목구조의 각 구조 부위에 적용되는 이음 방식 중 잘못 짝지어진 것을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2022-3회#34": {
+    "id": "2022-3회#34",
+    "displayed_number": 34,
+    "topic": "금속 부식 방지 관리대책",
+    "stem_summary": "금속의 부식을 방지하기 위한 관리 방법으로 보기 어려운 것을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#26": {
+    "id": "2024-3회#26",
+    "displayed_number": 26,
+    "topic": "금속 부식 방지와 건조 유지",
+    "stem_summary": "금속 부식 방지를 위한 표면 관리와 건조 상태 유지 방법 중 부적절한 것을 찾는 문제이다.",
+    "visible_answer": null
+  },
+  "2022-3회#37": {
+    "id": "2022-3회#37",
+    "displayed_number": 37,
+    "topic": "강화유리 특성과 올바른 설명 판단",
+    "stem_summary": "강화유리에 관한 설명 중 옳지 않은 내용을 고르는 문제이다.",
+    "visible_answer": 1
+  },
+  "2024-1회#26": {
+    "id": "2024-1회#26",
+    "displayed_number": 27,
+    "topic": "테라코타의 특성과 재료 비교",
+    "stem_summary": "테라코타에 관한 설명 중 옳지 않은 내용을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#46": {
+    "id": "2024-3회#46",
+    "displayed_number": 46,
+    "topic": "삼각스케일의 제도 용도",
+    "stem_summary": "제도에 사용하는 삼각스케일의 용도로 가장 적합한 것을 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2022-3회#59": {
+    "id": "2022-3회#59",
+    "displayed_number": 59,
+    "topic": "건축평면도의 문 표시기호",
+    "stem_summary": "제시된 평면 표시 기호가 의미하는 문 종류를 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#52": {
+    "id": "2024-3회#52",
+    "displayed_number": 52,
+    "topic": "접이문 평면 표시기호",
+    "stem_summary": "제시된 건축제도 평면 표시 기호가 의미하는 문 종류를 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#23": {
+    "id": "2024-1회#23",
+    "displayed_number": 23,
+    "topic": "점토제품 소성온도별 배열",
+    "stem_summary": "점토제품을 소성온도가 높은 것부터 낮은 순서로 배열하는 문제이다.",
+    "visible_answer": null
+  },
+  "2025-1회#56": {
+    "id": "2025-1회#56",
+    "displayed_number": 56,
+    "topic": "점토제품 소성온도별 배열",
+    "stem_summary": "점토제품을 소성온도가 높은 것부터 낮은 순서로 배열하는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-1회#43": {
+    "id": "2024-1회#43",
+    "displayed_number": 43,
+    "topic": "건축제도 글자와 치수 기입 원칙",
+    "stem_summary": "건축제도에서 글자와 치수 기입에 관한 설명 중 옳지 않은 것을 고르는 문제이다.",
+    "visible_answer": null
+  },
+  "2025-1회#43": {
+    "id": "2025-1회#43",
+    "displayed_number": 43,
+    "topic": "건축제도 글자와 치수 기입 원칙",
+    "stem_summary": "건축제도에서 글자와 치수 표기에 관한 설명 중 옳지 않은 것을 찾는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#13": {
+    "id": "2024-3회#13",
+    "displayed_number": 13,
+    "topic": "골든스페이스의 적정 높이 범위",
+    "stem_summary": "상품 진열 범위에서 고객의 시선과 손 reach에 가장 편안한 골든 스페이스 높이를 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2025-1회#11": {
+    "id": "2025-1회#11",
+    "displayed_number": 11,
+    "topic": "골든스페이스의 적정 높이 범위",
+    "stem_summary": "상품의 유효진열 범위 중 고객이 보기와 집기에 가장 편안한 높이 범위를 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#22": {
+    "id": "2024-3회#22",
+    "displayed_number": 22,
+    "topic": "저발열 시멘트의 종류와 용도",
+    "stem_summary": "수축이 작고 화학저항성이 커 매스콘크리트에 주로 사용하는 저발열 시멘트를 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2025-1회#49": {
+    "id": "2025-1회#49",
+    "displayed_number": 49,
+    "topic": "저발열 시멘트의 종류와 용도",
+    "stem_summary": "발열량을 줄이고 수축과 화학저항성을 개선해 매스콘크리트에 사용하는 시멘트를 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#23": {
+    "id": "2024-3회#23",
+    "displayed_number": 23,
+    "topic": "두 장 유리 사이 공기층 유리",
+    "stem_summary": "두 장 이상의 판유리 사이에 건조한 공기층을 두고 주변을 밀봉한 유리의 종류를 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2025-1회#50": {
+    "id": "2025-1회#50",
+    "displayed_number": 50,
+    "topic": "두 장 유리 사이 공기층 유리",
+    "stem_summary": "판유리 사이에 대기압에 가까운 건조 공기를 넣고 밀봉한 유리의 명칭을 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2024-3회#55": {
+    "id": "2024-3회#55",
+    "displayed_number": 55,
+    "topic": "도면에서 두께 표시 기호",
+    "stem_summary": "도면 표시 기호 중 재료의 두께를 나타내는 기호를 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2025-1회#9": {
+    "id": "2025-1회#9",
+    "displayed_number": 9,
+    "topic": "도면표시기호의 두께 기호",
+    "stem_summary": "도면 표시기호 중 두께를 나타내는 기호를 고르는 문제이다.",
+    "visible_answer": 1
+  },
+  "2018-1회#9": {
+    "id": "2018-1회#9",
+    "displayed_number": 9,
+    "topic": "균형 원리와 시각적 중량감",
+    "stem_summary": "균형의 원리에 관한 설명 중 옳지 않은 내용을 찾는 문제이다.",
+    "visible_answer": null
+  },
+  "2023-1회#3": {
+    "id": "2023-1회#3",
+    "displayed_number": 3,
+    "topic": "균형 원리와 시각적 중량감",
+    "stem_summary": "균형의 원리에 관한 설명 중 옳지 않은 내용을 찾는 문제이다.",
+    "visible_answer": null
+  },
+  "2023-3회#4": {
+    "id": "2023-3회#4",
+    "displayed_number": 4,
+    "topic": "균형 원리와 시각적 중량감",
+    "stem_summary": "균형의 원리에 관한 설명 중 옳지 않은 내용을 찾는 문제이다.",
+    "visible_answer": null
+  },
+  "2018-1회#10": {
+    "id": "2018-1회#10",
+    "displayed_number": 10,
+    "topic": "주택계획의 공간 배치 원칙",
+    "stem_summary": "주택계획에 관한 설명 중 옳지 않은 내용을 찾는 문제이다.",
+    "visible_answer": null
+  },
+  "2021-1회#3": {
+    "id": "2021-1회#3",
+    "displayed_number": 3,
+    "topic": "주택계획의 공간 배치 원칙",
+    "stem_summary": "주택계획에 관한 설명 중 옳지 않은 내용을 찾는 문제이다.",
+    "visible_answer": null
+  },
+  "2018-1회#44": {
+    "id": "2018-1회#44",
+    "displayed_number": 44,
+    "topic": "철근콘크리트 보 단부의 보강",
+    "stem_summary": "스팬이 긴 철근콘크리트 보의 단부에서 휨모멘트와 전단력에 저항하도록 보강한 춤을 묻는 문제이다.",
+    "visible_answer": null
+  },
+  "2022-3회#44": {
+    "id": "2022-3회#44",
+    "displayed_number": 44,
+    "topic": "철근콘크리트 보 단부의 보강",
+    "stem_summary": "스팬이 긴 철근콘크리트 보의 단부에서 춤을 크게 한 부분의 명칭을 묻는 문제이다.",
+    "visible_answer": null
+  }
+}

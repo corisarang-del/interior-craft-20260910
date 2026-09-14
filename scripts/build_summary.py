@@ -288,7 +288,16 @@ def render_summary(ranked, answer_index=None, image_review=None):
         lines.append("")
         rep = max(members, key=lambda m: (m["year"], len(m.get("stem") or "")))
         img = os.path.join(VAULT, "기출문제", "이미지", rep["round"], f"q{rep['num']:02d}.jpg")
-        if os.path.isfile(img):
+        problem_name = f"{rep['round']}-q{rep['num']:02d}-problem.jpg"
+        full_name = f"{rep['round']}-q{rep['num']:02d}-full.jpg"
+        problem_img = os.path.join(VAULT, "기출핵심요약", "이미지확대", problem_name)
+        full_img = os.path.join(VAULT, "기출핵심요약", "이미지확대", full_name)
+        if os.path.isfile(problem_img) and os.path.isfile(full_img):
+            lines.append(f"[![](이미지확대/{problem_name})](이미지확대/{full_name})")
+            lines.append("")
+        elif os.path.isfile(img):
+            lines.append(f"[원본 이미지 확대](../기출문제/이미지/{rep['round']}/q{rep['num']:02d}.jpg)")
+            lines.append("")
             lines.append(f"![](../기출문제/이미지/{rep['round']}/q{rep['num']:02d}.jpg)")
             lines.append("")
         else:

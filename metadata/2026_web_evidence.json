@@ -1,0 +1,20 @@
+[
+  {
+    "source": "Google 검색 결과",
+    "url": "https://www.google.com/search?q=%EC%8B%A4%EB%82%B4%EA%B1%B4%EC%B6%95%EA%B8%B0%EB%8A%A5%EC%82%AC+2026+1%ED%9A%8C+%EB%B3%B5%EC%9B%90",
+    "finding": "2026-1회 성안당 교재 대조 자료와 CBT 복원·해설 검색 결과가 확인되지만, 전체 공식 문제·정답 원문은 확인하지 못함.",
+    "grade": "D"
+  },
+  {
+    "source": "Google 검색 결과",
+    "url": "https://www.google.com/search?q=site%3Aq-net.or.kr+%EC%8B%A4%EB%82%B4%EA%B1%B4%EC%B6%95%EA%B8%B0%EB%8A%A5%EC%82%AC+%EC%98%88%EC%8B%9C%EB%AC%B8제+2026",
+    "finding": "Q-Net 예시문제 자료실 검색 결과 확인. 예시문제는 실제 2026 회차 복원 원문과 동일하다고 단정하지 않음.",
+    "grade": "D"
+  },
+  {
+    "source": "Google 검색 결과",
+    "url": "https://www.google.com/search?q=%EC%84%B1%EC%95%88%EB%8B%B9+%EC%8B%A4%EB%82%B4%EA%B1%B4%EC%B6%95%EA%B8%B0%EB%8A%A5%EC%82%AC+2026+%EA%B8%B0%EC%B6%9C",
+    "finding": "성안당 2026 교재와 공개 자료 검색 결과. 교재 페이지·문항 주제의 보조 근거로만 사용.",
+    "grade": "D"
+  }
+]

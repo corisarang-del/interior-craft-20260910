@@ -1,0 +1,1622 @@
+[
+  {
+    "round": "2026-1회",
+    "number": 1,
+    "clue": "- 선의 종류 (교재 33쪽, 29번)",
+    "page": 33,
+    "book_number": 29,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 2,
+    "clue": "- 장방형 형태 (교재 37쪽, 56번)",
+    "page": 37,
+    "book_number": 56,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 3,
+    "clue": "- 디자인의 원리(황금비례) (교재 47쪽, 115번)",
+    "page": 47,
+    "book_number": 115,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 4,
+    "clue": "- 실내 기본 요소(천장) (교재 69쪽, 31번)",
+    "page": 69,
+    "book_number": 31,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 5,
+    "clue": "- 새시 커튼 (교재 71쪽, 44번)",
+    "page": 71,
+    "book_number": 44,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 6,
+    "clue": "- 가구(세티) (교재 79쪽, 99번)",
+    "page": 79,
+    "book_number": 99,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 7,
+    "clue": "- 주택의 소요실(개인 공간) (교재 103쪽, 13번)",
+    "page": 103,
+    "book_number": 13,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 8,
+    "clue": "- 부엌 가구(일자형) (교재 108쪽, 41번)",
+    "page": 108,
+    "book_number": 41,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 9,
+    "clue": "- 카펫과 러그의 설치 효과 (교재 110쪽, 55번)",
+    "page": 110,
+    "book_number": 55,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 10,
+    "clue": "- 상접(직렬 배치형) (교재 115쪽, 88번)",
+    "page": 115,
+    "book_number": 88,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 11,
+    "clue": "- 상점의 동선 계획 (교재 116쪽, 98번)",
+    "page": 116,
+    "book_number": 98,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 12,
+    "clue": "- 상점의 판매 형식 (교재 118쪽, 109번)",
+    "page": 118,
+    "book_number": 109,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 13,
+    "clue": "- 바실리 의자 (교재 119쪽, 118번)",
+    "page": 119,
+    "book_number": 118,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 14,
+    "clue": "- 르코르뷔지에 (교재 120쪽, 121번)",
+    "page": 120,
+    "book_number": 121,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 15,
+    "clue": "- 자연 환기 (교재 140쪽, 20번)",
+    "page": 140,
+    "book_number": 20,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 16,
+    "clue": "- 일조 조절의 목적 (교재 153쪽, 1번)",
+    "page": 153,
+    "book_number": 1,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 17,
+    "clue": "- 조도 (교재 157쪽, 31번)",
+    "page": 157,
+    "book_number": 31,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 18,
+    "clue": "- 잔향 (교재 172쪽, 25번)",
+    "page": 172,
+    "book_number": 25,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 19,
+    "clue": "- 재료의 역학적 성질(탄성) (교재 181쪽, 4번)",
+    "page": 181,
+    "book_number": 4,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 20,
+    "clue": "- 재료의 분류(무기 재료) (교재 185쪽, 33번)",
+    "page": 185,
+    "book_number": 33,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 21,
+    "clue": "- 재료의 역학적 성질(취성) (교재 182쪽, 10번)",
+    "page": 182,
+    "book_number": 10,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 22,
+    "clue": "- 목재의 장점 (교재 253쪽, 1번)",
+    "page": 253,
+    "book_number": 1,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 23,
+    "clue": "- 목재의 건조 전 처리법 (교재 259쪽, 39번)",
+    "page": 259,
+    "book_number": 39,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 24,
+    "clue": "- 합판 (교재 263쪽, 70번)",
+    "page": 263,
+    "book_number": 70,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 25,
+    "clue": "- 석재 제품(암면) (교재 275쪽, 42번)",
+    "page": 275,
+    "book_number": 42,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 26,
+    "clue": "- 석재 사용상 주의사항 (교재 277쪽, 53번)",
+    "page": 277,
+    "book_number": 53,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 27,
+    "clue": "- 테라코타 (교재 286쪽, 47번)",
+    "page": 286,
+    "book_number": 47,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 28,
+    "clue": "- 조강 포틀랜드 시멘트 (교재 291쪽, 28번)",
+    "page": 291,
+    "book_number": 28,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 29,
+    "clue": "- 골재에 요구되는 성질 (교재 295쪽, 8번)",
+    "page": 295,
+    "book_number": 8,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 30,
+    "clue": "- 혼화제 (교재 299쪽, 35번)",
+    "page": 299,
+    "book_number": 35,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 31,
+    "clue": "- 컨시스턴시 (교재 301쪽, 47번)",
+    "page": 301,
+    "book_number": 47,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 32,
+    "clue": "- 열처리 방법의 종류 (교재 309쪽, 7번)",
+    "page": 309,
+    "book_number": 7,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 33,
+    "clue": "- 금속의 부식 방지 대책 (교재 314쪽, 35번)",
+    "page": 314,
+    "book_number": 35,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 34,
+    "clue": "- 소다석회 유리 (교재 319쪽, 2번)",
+    "page": 319,
+    "book_number": 2,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 35,
+    "clue": "- 열경화성 수지의 종류 (교재 327쪽, 10번)",
+    "page": 327,
+    "book_number": 10,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 36,
+    "clue": "- 석고 플라스터 (교재 335쪽, 25번)",
+    "page": 335,
+    "book_number": 25,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 37,
+    "clue": "- 유성 페인트 (교재 338쪽, 7번)",
+    "page": 338,
+    "book_number": 7,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 38,
+    "clue": "- 아스팔트 싱글 (교재 344쪽, 15번)",
+    "page": 344,
+    "book_number": 15,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 39,
+    "clue": "- 에폭시 수지 접착제 (교재 347쪽, 8번)",
+    "page": 347,
+    "book_number": 8,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 40,
+    "clue": "- 삼각자의 각도 (교재 354쪽, 3번)",
+    "page": 354,
+    "book_number": 3,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 41,
+    "clue": "- 제도 용구와 용도의 연결 (교재 357쪽, 27번)",
+    "page": 357,
+    "book_number": 27,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 42,
+    "clue": "- 도면의 크기와 표제란 (교재 360쪽, 48번)",
+    "page": 360,
+    "book_number": 48,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 43,
+    "clue": "- 선긋기 (교재 372쪽, 23번)",
+    "page": 372,
+    "book_number": 23,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 44,
+    "clue": "- 창호의 표시 방법 (교재 380쪽, 76번)",
+    "page": 380,
+    "book_number": 76,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 45,
+    "clue": "- 배경 표현의 목적 (교재 386쪽, 6번)",
+    "page": 386,
+    "book_number": 6,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 46,
+    "clue": "- 계획 설계도의 종류 (교재 399쪽, 14번)",
+    "page": 399,
+    "book_number": 14,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 47,
+    "clue": "- 부재 (교재 474쪽, 85번)",
+    "page": 474,
+    "book_number": 85,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 48,
+    "clue": "- 왕대공의 압축력 부재 (교재 474쪽, 81번)",
+    "page": 474,
+    "book_number": 81,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 49,
+    "clue": "- 용접 (교재 507쪽, 24번)",
+    "page": 507,
+    "book_number": 24,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 50,
+    "clue": "- 고력 볼트 접합 (교재 507쪽, 19번)",
+    "page": 507,
+    "book_number": 19,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 51,
+    "clue": "- 허니콤보 (교재 510쪽, 44번)",
+    "page": 510,
+    "book_number": 44,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 52,
+    "clue": "- 스티프너 (교재 510쪽, 39번)",
+    "page": 510,
+    "book_number": 39,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 53,
+    "clue": "- 스틸 하우스 (교재 513쪽, 62번)",
+    "page": 513,
+    "book_number": 62,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 54,
+    "clue": "- 셸 구조 (교재 513쪽, 2번)",
+    "page": 513,
+    "book_number": 2,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 55,
+    "clue": "- 이점 쇄선 (교재 545쪽, 12번)",
+    "page": 545,
+    "book_number": 12,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 56,
+    "clue": "- 철근 콘크리트의 구조 (교재 550쪽, 4번)",
+    "page": 550,
+    "book_number": 4,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 57,
+    "clue": "- 회전문 (교재 552쪽, 13번)",
+    "page": 552,
+    "book_number": 13,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 58,
+    "clue": "58. 열전도율이 큰 것부터 순서로 나열된 것은?       A. 소나무   B. 콘크리트   C. 코르크   D.철  ① B－D－A－C ② B－D－C－A ③ D－B－A－C ④ D－B－C－A",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 59,
+    "clue": "59. 건축물을 표현하는 투시도법 중 그림과 같은 투시도법은 어느 것인 가? ① 평행 투시도 ② 유각 투시도 ③ 경사 투시도 ④ 3소점 투시도",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-1회",
+    "number": 60,
+    "clue": "60. 도면에 있어서 구조체면의 표기 방법으로 옳은 것은? ①▼ ②▲ ③◆ ④◇",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 1,
+    "clue": "- 형태의 지각(연속성) (교재 39쪽, 67번)",
+    "page": 39,
+    "book_number": 67,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 2,
+    "clue": "- 디자인의 원리(방사) (교재 44쪽, 102번)",
+    "page": 44,
+    "book_number": 102,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 3,
+    "clue": "- 착시의 종류 (교재 51쪽, 140번)",
+    "page": 51,
+    "book_number": 140,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 4,
+    "clue": "- 바닥이 넓게 보이는 방법 (교재 66쪽, 17번)",
+    "page": 66,
+    "book_number": 17,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 5,
+    "clue": "- 실내 기본 요소(벽) (교재 67쪽, 23번)",
+    "page": 67,
+    "book_number": 23,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 6,
+    "clue": "- 실내 기본 요소(천장) (교재 69쪽, 31번)",
+    "page": 69,
+    "book_number": 31,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 7,
+    "clue": "- 개구부의 역할 (교재 76쪽, 75번)",
+    "page": 76,
+    "book_number": 75,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 8,
+    "clue": "- 조명 방식 (교재 78쪽, 87번)",
+    "page": 78,
+    "book_number": 87,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 9,
+    "clue": "- 붙박이 가구 (교재 80쪽, 106번)",
+    "page": 80,
+    "book_number": 106,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 10,
+    "clue": "- 거실의 가구 배치 방법 (교재 105쪽, 24번)",
+    "page": 105,
+    "book_number": 24,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 11,
+    "clue": "- 거실의 가구 배치 영향 요소 (교재 105쪽, 27번)",
+    "page": 105,
+    "book_number": 27,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 12,
+    "clue": "- 주택의 구조 (교재 113쪽, 77번)",
+    "page": 113,
+    "book_number": 77,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 13,
+    "clue": "- 숍 프론트의 설계 계획 (교재 114쪽, 82번)",
+    "page": 114,
+    "book_number": 82,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 14,
+    "clue": "- 사행 배치형 (교재 115쪽, 90번)",
+    "page": 115,
+    "book_number": 90,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 15,
+    "clue": "- 고객 동선 (교재 116쪽, 96번)",
+    "page": 116,
+    "book_number": 96,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 16,
+    "clue": "- 열전도율 (교재 126쪽, 4번)",
+    "page": 126,
+    "book_number": 4,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 17,
+    "clue": "- 열관류 (교재 128쪽, 17번)",
+    "page": 128,
+    "book_number": 17,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 18,
+    "clue": "- 공기의 오염도 측정 시 기준 값 (교재 139쪽, 9번)",
+    "page": 139,
+    "book_number": 9,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 19,
+    "clue": "- 눈부심의 방지 대책 (교재 159쪽, 44번)",
+    "page": 159,
+    "book_number": 44,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 20,
+    "clue": "- 마스킹 효과 (교재 169쪽, 5번)",
+    "page": 169,
+    "book_number": 5,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 21,
+    "clue": "- 20세기 새로운 건축 재료 (교재 181쪽, 1번)",
+    "page": 181,
+    "book_number": 1,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 22,
+    "clue": "- 재료의 분류 (교재 186쪽, 35번)",
+    "page": 186,
+    "book_number": 35,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 23,
+    "clue": "- MDF (교재 265쪽, 78번)",
+    "page": 265,
+    "book_number": 78,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 24,
+    "clue": "- 석재의 특징 (교재 269쪽, 2번)",
+    "page": 269,
+    "book_number": 2,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 25,
+    "clue": "- 암면 (교재 275쪽, 42번)",
+    "page": 275,
+    "book_number": 42,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 26,
+    "clue": "- 타일의 소지 (교재 284쪽, 34번)",
+    "page": 284,
+    "book_number": 34,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 27,
+    "clue": "- 시멘트 안정성 (교재 289쪽, 21번)",
+    "page": 289,
+    "book_number": 21,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 28,
+    "clue": "- 천연 골재 (교재 294쪽, 1번)",
+    "page": 294,
+    "book_number": 1,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 29,
+    "clue": "- 방청제 (교재 300쪽, 37번)",
+    "page": 300,
+    "book_number": 37,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 30,
+    "clue": "- 동 (교재 310쪽, 16번)",
+    "page": 310,
+    "book_number": 16,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 31,
+    "clue": "- 알루미늄의 성질 (교재 312쪽, 24번)",
+    "page": 312,
+    "book_number": 24,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 32,
+    "clue": "- 복층 유리 (교재 321쪽, 19번)",
+    "page": 321,
+    "book_number": 19,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 33,
+    "clue": "- 실리콘 수지 (교재 328쪽, 14번)",
+    "page": 328,
+    "book_number": 14,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 34,
+    "clue": "- 건비빔 (교재 332쪽, 11번)",
+    "page": 332,
+    "book_number": 11,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 35,
+    "clue": "- 전색제 (교재 337쪽, 2번)",
+    "page": 337,
+    "book_number": 2,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 36,
+    "clue": "- 아스팔트 프라이머 (교재 344쪽, 19번)",
+    "page": 344,
+    "book_number": 19,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 37,
+    "clue": "- 에폭시 수지 접착제 (교재 346쪽, 7번)",
+    "page": 346,
+    "book_number": 7,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 38,
+    "clue": "- 삼각 스케일의 용도 (교재 355쪽, 8번)",
+    "page": 355,
+    "book_number": 8,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 39,
+    "clue": "- 제도 용구 (교재 357쪽, 25번)",
+    "page": 357,
+    "book_number": 25,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 40,
+    "clue": "- 파선 (교재 370쪽, 8번)",
+    "page": 370,
+    "book_number": 8,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 41,
+    "clue": "- 제도 통칙의 규정 (교재 373쪽, 31번)",
+    "page": 373,
+    "book_number": 31,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 42,
+    "clue": "- 치수 기입 시 주의사항 (교재 374쪽, 39번)",
+    "page": 374,
+    "book_number": 39,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 43,
+    "clue": "- 도면상의 길이 (교재 376쪽, 49번)",
+    "page": 376,
+    "book_number": 49,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 44,
+    "clue": "- 평면 표시 기호 (교재 379쪽, 74번)",
+    "page": 379,
+    "book_number": 74,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 45,
+    "clue": "- 철근 배근의 도면 표시 방법 (교재 391쪽, 43번)",
+    "page": 391,
+    "book_number": 43,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 46,
+    "clue": "- 건축 설계 도면 (교재 398쪽, 10번)",
+    "page": 398,
+    "book_number": 10,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 47,
+    "clue": "- 건축 구조의 분류 (교재 457쪽, 29번)",
+    "page": 457,
+    "book_number": 29,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 48,
+    "clue": "- 각종 건축 구조의 비교 (교재 460쪽, 50번)",
+    "page": 460,
+    "book_number": 50,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 49,
+    "clue": "- 조립식 구조 (교재 461쪽, 55번)",
+    "page": 461,
+    "book_number": 55,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 50,
+    "clue": "- 이음과 맞춤 시 주의사항 (교재 473쪽, 75번)",
+    "page": 473,
+    "book_number": 75,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 51,
+    "clue": "- 벽돌벽의 균열 원인 (교재 487쪽, 54번)",
+    "page": 487,
+    "book_number": 54,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 52,
+    "clue": "- 바른층 쌓기 (교재 490쪽, 79번)",
+    "page": 490,
+    "book_number": 79,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 53,
+    "clue": "- 내력벽의 두께 (교재 499쪽, 53번)",
+    "page": 499,
+    "book_number": 53,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 54,
+    "clue": "- 지점의 종류 (교재 505쪽, 10번)",
+    "page": 505,
+    "book_number": 10,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 55,
+    "clue": "- 스틸 하우스 (교재 513쪽, 62번)",
+    "page": 513,
+    "book_number": 62,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 56,
+    "clue": "56. 다음 중 재료의 요구 성질에 대한 설명 중 옳지 않은 것은? ① 지붕 재료는 열전도율이 작고, 외관이 좋은 것이어야 한다. ② 창호 및 수장 재료는 변형이 작고, 가공이 용이하며, 내화, 내구성이 작아야 한  다. ③ 벽, 천장의 재료는 외관이 좋고, 시공이 용이한 것이어야 한다. ④ 바닥, 마무리 재료는 탄력성이 있고, 마멸과 미끄럼이 적으며, 청소가 용이하여  야 한다.",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 57,
+    "clue": "57. 다음은 목재의 단점에 대한 설명이다. 옳지 않은 것은? ① 재질과 강도가 목재의 결 방향에 따라 거의 동일하다. ② 비틀어지거나 쪼개지는 성질이 있다. ③ 내화성이 없고 충해와 아울러 썩기 쉽다. ④ 함수율이 많고 적음에 따라 팽창과 수축이 크다.",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 58,
+    "clue": "58. 목재에 대한 설명으로 옳지 않은 것은? ① 강재에 비해 열전도율이 작다. ② 비강도가 크다. ③ 가공이 비교적 용이하다. ④ 습기에 따른 신축이 거의 없다.",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 59,
+    "clue": "59. 골재의 입도를 수치적으로 나타내는 방법으로 입경이 클수록 커지며, 일반적으 로 잔골재는 2.3~3.1 정도, 굵은 골재는 6~8 정도면 좋은 편이라고 할 수 있는 것 은? ① 예민비 ② 잔골재율 ③ 조립률 ④ 단위용적중량",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-2회",
+    "number": 60,
+    "clue": "60. 철근 콘크리트 단순보에 관한 다음 사항 중에서 옳지 않은 것은? ① 인장철근을 증가시키는 것은 전단력에 대한 유효한 보강법이다. ② 일반적으로 전단응력은 단면의 중립축에서 최대이나 항상 중립축에서 최대는 아니다. ③ 보의 주근은 중앙부에서는 하부에 많이 넣는다. ④ 중요한 보는 복근보로 한다.",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 1,
+    "clue": "- 실내 디자인의 개념 (교재 9쪽, 5번)",
+    "page": 9,
+    "book_number": 5,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 2,
+    "clue": "- 점 (교재 30쪽, 7번)",
+    "page": 30,
+    "book_number": 7,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 3,
+    "clue": "- 형태의 지각(유사성) (교재 38쪽, 63번)",
+    "page": 38,
+    "book_number": 63,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 4,
+    "clue": "- 디자인의 원리(리듬) (교재 43쪽, 97번)",
+    "page": 43,
+    "book_number": 97,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 5,
+    "clue": "- 실내 기본 요소(바닥) (교재 65쪽, 7번)",
+    "page": 65,
+    "book_number": 7,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 6,
+    "clue": "- 실내 기본 요소(기둥) (교재 69쪽, 30번)",
+    "page": 69,
+    "book_number": 30,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 7,
+    "clue": "- 가구(스톨) (교재 79쪽, 96번)",
+    "page": 79,
+    "book_number": 96,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 8,
+    "clue": "- 거실의 가구 배치 영향 요소 (교재 105쪽, 27번)",
+    "page": 105,
+    "book_number": 27,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 9,
+    "clue": "- 주택의 거실 (교재 105쪽, 25번)",
+    "page": 105,
+    "book_number": 25,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 10,
+    "clue": "- 판매 형식(대면 판매) (교재 118쪽, 107번)",
+    "page": 118,
+    "book_number": 107,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 11,
+    "clue": "- 열의 이동(복사) (교재 127쪽, 9번)",
+    "page": 127,
+    "book_number": 9,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 12,
+    "clue": "- 결로의 방지 대책 (교재 132쪽, 41번)",
+    "page": 132,
+    "book_number": 41,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 13,
+    "clue": "- 환기(압입식, 제2종) (교재 141쪽, 26번)",
+    "page": 141,
+    "book_number": 26,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 14,
+    "clue": "- 조명 용어(조도의 산정) (교재 157쪽, 34번)",
+    "page": 157,
+    "book_number": 34,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 15,
+    "clue": "- 건축화 조명 방식(벽면 조명) (교재 163쪽, 67번)",
+    "page": 163,
+    "book_number": 67,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 16,
+    "clue": "- 음의 크기 (교재 170쪽, 10번)",
+    "page": 170,
+    "book_number": 10,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 17,
+    "clue": "- 재료의 역학적 성질(탄성) (교재 181쪽, 4번)",
+    "page": 181,
+    "book_number": 4,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 18,
+    "clue": "- 재료의 역학적 성질(취성) (교재 182쪽, 10번)",
+    "page": 182,
+    "book_number": 10,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 19,
+    "clue": "- 재료의 분류(무기 재료) (교재 185쪽, 29번)",
+    "page": 185,
+    "book_number": 29,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 20,
+    "clue": "- 천연건조법 (교재 259쪽, 39번)",
+    "page": 259,
+    "book_number": 39,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 21,
+    "clue": "- 합판 (교재 263쪽, 70번)",
+    "page": 263,
+    "book_number": 70,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 22,
+    "clue": "- 석재 제품(암면) (교재 275쪽, 42번)",
+    "page": 275,
+    "book_number": 42,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 23,
+    "clue": "- 석재의 사용상 주의사항 (교재 277쪽, 52번)",
+    "page": 277,
+    "book_number": 52,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 24,
+    "clue": "- 점토 제품(테라코타) (교재 285쪽, 43번)",
+    "page": 285,
+    "book_number": 43,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 25,
+    "clue": "- 조강포틀랜드 시멘트 (교재 291쪽, 29번)",
+    "page": 291,
+    "book_number": 29,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 26,
+    "clue": "- 골재에 요구되는 성질 (교재 296쪽, 12번)",
+    "page": 296,
+    "book_number": 12,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 27,
+    "clue": "- 혼화 재료 중 혼화재 (교재 297쪽, 21번)",
+    "page": 297,
+    "book_number": 21,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 28,
+    "clue": "- 생 콘크리트(컨시스턴시) (교재 301쪽, 47번)",
+    "page": 301,
+    "book_number": 47,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 29,
+    "clue": "- 프리스트레스트 콘크리트 (교재 306쪽, 74번)",
+    "page": 306,
+    "book_number": 74,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 30,
+    "clue": "- 열처리 방법의 종류 (교재 309쪽, 7번)",
+    "page": 309,
+    "book_number": 7,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 31,
+    "clue": "- 금속의 부식 방지 대책 (교재 314쪽, 35번)",
+    "page": 314,
+    "book_number": 35,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 32,
+    "clue": "- 소다석회 유리 (교재 319쪽, 2번)",
+    "page": 319,
+    "book_number": 2,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 33,
+    "clue": "- 열경화성 수지의 종류 (교재 327쪽, 10번)",
+    "page": 327,
+    "book_number": 10,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 34,
+    "clue": "- 석고 플랴스터 (교재 335쪽, 29번)",
+    "page": 335,
+    "book_number": 29,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 35,
+    "clue": "- 유성 페인트 (교재 338쪽, 8번)",
+    "page": 338,
+    "book_number": 8,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 36,
+    "clue": "- 아스팔트 싱글 (교재 344쪽, 15번)",
+    "page": 344,
+    "book_number": 15,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 37,
+    "clue": "- 에폭시 수지 접착제 (교재 346쪽, 7번)",
+    "page": 346,
+    "book_number": 7,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 38,
+    "clue": "- 삼각자 (교재 354쪽, 6번)",
+    "page": 354,
+    "book_number": 6,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 39,
+    "clue": "- 삼각자 1조의 이루는 각도 (교재 354쪽, 3번)",
+    "page": 354,
+    "book_number": 3,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 40,
+    "clue": "- 지우개가 갖추어야 할 조건 (교재 356쪽, 20번)",
+    "page": 356,
+    "book_number": 20,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 41,
+    "clue": "- 제도 용지의 규격 비교 (교재 359쪽, 37번)",
+    "page": 359,
+    "book_number": 37,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 42,
+    "clue": "- 일점 쇄선 (교재 370쪽, 9번)",
+    "page": 370,
+    "book_number": 9,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 43,
+    "clue": "- 선긋기 (교재 372쪽, 24번)",
+    "page": 372,
+    "book_number": 24,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 44,
+    "clue": "- 평면 표시 기호(외여닫이문) (교재 379쪽, 70번)",
+    "page": 379,
+    "book_number": 70,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 45,
+    "clue": "- 도면(단면도의 표시 사항) (교재 390쪽, 38번)",
+    "page": 390,
+    "book_number": 38,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 46,
+    "clue": "- 건축 구조의 가구식 구조 (교재 457쪽, 31번)",
+    "page": 457,
+    "book_number": 31,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 47,
+    "clue": "- 지반의 허용 지내력도 (교재 462쪽, 1번)",
+    "page": 462,
+    "book_number": 1,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 48,
+    "clue": "- 보강재의 종류 (교재 473쪽, 72번)",
+    "page": 473,
+    "book_number": 72,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 49,
+    "clue": "- 철근(이음) (교재 493쪽, 14번)",
+    "page": 493,
+    "book_number": 14,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 50,
+    "clue": "- 보(늑근) (교재 495쪽, 24번)",
+    "page": 495,
+    "book_number": 24,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 51,
+    "clue": "- 슬래브(플랫 슬래브) (교재 497쪽, 41번)",
+    "page": 497,
+    "book_number": 41,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 52,
+    "clue": "- 거푸집 측압의 결정 요소 (교재 500쪽, 61번)",
+    "page": 500,
+    "book_number": 61,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 53,
+    "clue": "- 거푸집(강재 거푸집) (교재 500쪽, 58번)",
+    "page": 500,
+    "book_number": 58,
+    "source": "textbook_clue",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 54,
+    "clue": "54. 다음에서 설명하는 블라인드의 종류로 옳은 것은?  날개의 각도를 조절하여 일광을 조절하며, 시선을 차단하는 블라인드로 수평적 요소로 작용하여 안정감을 주나, 먼지가 쌓이기 쉬운 구조의 블라인드이다. ① 롤 블라인드 ② 로만 블라인드 ③ 베니션 블라인드 ④ 버티컬 블라인드",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 55,
+    "clue": "55. 도면의 표시 기호로 옳지 않은 것은? ① L：길이 ② H：높이 ③ W：너비 ④ A：용적",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 56,
+    "clue": "56. 다음에서 설명하는 백화점의 진열방식으로 옳은 것은?  수직 통로까지 동선이 짧고, 점 내에 고객의 발길이 골고루 닿게 하며 주통로 이외의 제2 통로를 상⋅하교통계를 향해서 45° 사선으로 배치한 방식으로 제2 통로의 상품이 잘 보이나 케이스 이 형이 많이 생긴다. ① 직각배치법 ② 유선형 배치법 ③ 사행배치법 ④ 굴절배치법",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 57,
+    "clue": "57. 원룸 시스템에 대한 설명으로 옳지 않은 것은? ① 다른 공간에 비해 접객 공간을 최대한으로 한다. ② 공간의 활용이 자유로우며 자유스러운 가구 배치가 가능하다. ③ 여러 가지 기능의 실들을 한 곳에 집약시켜 생활공간을 구성하는 일실 다용도 방식이다. ④ 간편하고 이동이 용이한 조립식 가구나 다양한 기능을 구사하는 다목적 가구의 사용이 효 과적이다.",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 58,
+    "clue": "58. 쇼핑센터의 공간 구성에서 페디스트리언 지대(padestrian area)의 일부로서 고객을 각 상점에 유도하는 보행자 동선인 동시에 고객의 휴식처로서 기능을 갖고 있는 곳을 무엇이라 하는가? ① 몰(mall) ② 코트(court) ③ 핵상점(magnet store) ④ 허브(hub)",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 59,
+    "clue": "59. 목구조의 토대에 대한 설명으로 틀린 것은? ① 기둥에서 내려오는 상부의 하중을 기초에 전달하는 역할을 한다. ② 토대에는 바깥 토대, 칸막이 토대, 귀잡이 토대가 있다. ③ 연속 기초 위에 수평으로 놓고 앵커 볼트로 고정시킨다. ④ 토대의 크기는 보통 기둥과 같이 하거나, 다소 작게한다.",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  },
+  {
+    "round": "2026-3회",
+    "number": 60,
+    "clue": "60. 도면에 있어서 구조체 마감면의 표기 방법으로 옳은 것은? ①▼ ②▽  ③⇦ ④⇧",
+    "page": null,
+    "book_number": null,
+    "source": "new_full",
+    "status": "미확정"
+  }
+]

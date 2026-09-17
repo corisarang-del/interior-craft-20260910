@@ -27,8 +27,8 @@ class TestSummaryReview(unittest.TestCase):
 
     def test_frequency_line_exposes_score_and_repeat_count(self):
         self.assertEqual(
-            format_frequency_line({"score": 18.0, "members": [{"year": 2018}, {"year": 2021}, {"year": 2024}]}),
-            "> **출제빈도**: 3회 / 3개년 / 점수 18",
+            format_frequency_line({"score": 18.0, "frequency_score": 8, "latest_score": 1, "category": "반복 출제 핵심 유형", "members": [{"year": 2018}, {"year": 2021}, {"year": 2024}]}),
+            "> **출제빈도**: 반복 출제 핵심 유형 / 3회 / 3개년 / 빈도점수 8 / 최신점수 1",
         )
 
 

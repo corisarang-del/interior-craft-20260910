@@ -6,7 +6,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from frequency import normalize_stem, top_n, importance
+from frequency import normalize_stem, cluster_items, importance, rank_clusters
 from inventory import load_inventory
 from ocr_frames import parse_num
 
@@ -17,21 +17,7 @@ NOTE_DIR = os.path.join(ROOT, "out/notes")
 META_DIR = os.path.join(ROOT, "metadata")
 REVIEW_DIR = os.path.join(ROOT, "out")
 
-# Image review found OCR/frame-assignment clusters that are not one type.
-# Each list is a deliberately reviewed same-type group within the old rank.
-SUMMARY_SPLIT_GROUPS = {
-    4: [["2024-3회#34"], ["2024-3회#36"], ["2017-1회#22"]],
-    5: [["2021-1회#12", "2024-3회#16"], ["2024-3회#14"]],
-    18: [["2021-3회#18"], ["2024-3회#29"]],
-    22: [["2022-3회#37"], ["2024-1회#26"]],
-    34: [["2019-1회#7"], ["2021-3회#5"]],
-    41: [["2021-3회#41"], ["2022-1회#1"]],
-    47: [["2024-1회#15"], ["2024-1회#18"]],
-    50: [["2024-3회#4"], ["2024-3회#41"]],
-    52: [["2025-1회#1"], ["2025-1회#17"]],
-    54: [["2022-1회#59"], ["2022-3회#6"], ["2022-3회#56"]],
-    55: [["2022-3회#23"], ["2022-3회#25", "2022-3회#29"]],
-}
+# Image review is applied to every raw cluster before ranking. No year cap is used.
 
 
 def load_image_review_index():
@@ -72,9 +58,11 @@ def load_answer_index():
 def format_frequency_line(cluster):
     members = cluster.get('members') or []
     years = {m.get('year') for m in members if m.get('year')}
-    score = cluster.get('score', 0)
-    score_text = str(int(score)) if float(score).is_integer() else str(score)
-    return f"> **출제빈도**: {len(members)}회 / {len(years)}개년 / 점수 {score_text}"
+    frequency = cluster.get('frequency_score', cluster.get('score', 0))
+    latest = cluster.get('latest_score', 0)
+    category = cluster.get('category', '미분류')
+    frequency_text = str(int(frequency)) if float(frequency).is_integer() else str(frequency)
+    return f"> **출제빈도**: {category} / {len(members)}회 / {len(years)}개년 / 빈도점수 {frequency_text} / 최신점수 {latest}"
 
 
 def format_member_answers(members, answer_index):
@@ -109,38 +97,6 @@ def format_member_links(members, available_questions=None):
         else:
             links.append(f"{rid} {num}번")
     return links
-
-
-def split_reviewed_clusters(ranked):
-    result = []
-    for old_rank, cluster in enumerate(ranked, 1):
-        groups = SUMMARY_SPLIT_GROUPS.get(old_rank)
-        if not groups:
-            result.append(cluster)
-            continue
-        member_map = {f"{m['round']}#{m['num']}": m for m in cluster['members']}
-        used = set()
-        for group in groups:
-            members = [member_map[x] for x in group if x in member_map]
-            if not members:
-                continue
-            used.update(f"{m['round']}#{m['num']}" for m in members)
-            years = [m['year'] for m in members]
-            result.append({
-                'stem': members[0].get('stem', ''),
-                'members': members,
-                'score': importance(years, len(members), latest=any(y >= 2024 for y in years)),
-            })
-        leftovers = [m for key, m in member_map.items() if key not in used]
-        if leftovers:
-            years = [m['year'] for m in leftovers]
-            result.append({
-                'stem': leftovers[0].get('stem', ''),
-                'members': leftovers,
-                'score': importance(years, len(leftovers), latest=any(y >= 2024 for y in years)),
-            })
-    result.sort(key=lambda c: c['score'], reverse=True)
-    return result
 
 
 def review_number_match(members, image_review):
@@ -208,7 +164,7 @@ def apply_image_review(ranked, image_review):
             result.append({
                 'stem': members[0].get('stem', ''),
                 'members': members,
-                'score': importance(years, len(members), latest=any(y >= 2024 for y in years)),
+                'score': len(set(years)) * 3 + len(members),
             })
         # Unreviewed members are not silently attached to a reviewed topic.
         for member in unknown:
@@ -217,8 +173,19 @@ def apply_image_review(ranked, image_review):
                 'members': [member],
                 'score': importance([member['year']], 1, latest=member['year'] >= 2024),
             })
-    result.sort(key=lambda c: c['score'], reverse=True)
     return result
+
+
+def rank_reviewed_clusters(clusters):
+    """Rank by category, actual frequency, year count, then stable ID.
+
+    Recency is displayed separately but deliberately does not alter ranking.
+    No per-year cap is applied, per the project requirement.
+    """
+    ranked = rank_clusters(clusters)
+    for cluster in ranked:
+        cluster['score'] = cluster['frequency_score']
+    return ranked
 
 
 def round_year(rid):
@@ -277,14 +244,15 @@ def render_summary(ranked, answer_index=None, image_review=None):
         "---",
         "# 실내건축기능사 필기 기출핵심요약 100",
         "",
-        "OCR 지문 클러스터 + 최신 회차 1.5배 가중. 대표는 이미지(있을 때).",
-        "같은 유형 링크는 원본 회차 노트가 있는 것만.",
+        "반복 출제 유형 우선. 빈도점수(출제 연도 수×3 + 출제 횟수)와 최신점수를 분리 표시하며 순위는 빈도 우선. 연도별 상한 없음.",
+        "대표는 확인된 이미지가 있을 때 표시하며, 같은 유형 링크는 의미 검수된 반복 문항만 연결.",
         "",
     ]
     for i, c in enumerate(ranked, 1):
         members = sorted(c["members"], key=lambda m: (m["year"], m["round"], m["num"]))
         years = sorted({m["year"] for m in members})
-        lines.append(f"## {i}. {' / '.join(str(y) for y in years)} 출제")
+        category = c.get('category', '미분류')
+        lines.append(f"## {i}. {category} | {' / '.join(str(y) for y in years)} 출제")
         lines.append("")
         rep = max(members, key=lambda m: (m["year"], len(m.get("stem") or "")))
         img = os.path.join(VAULT, "기출문제", "이미지", rep["round"], f"q{rep['num']:02d}.jpg")
@@ -326,11 +294,11 @@ def main():
     items = []
     for rnd in data["rounds"]:
         items.extend(stems_from_round(rnd))
-    ranked = top_n(items, limit=len(items))
+    clusters = cluster_items(items)
     image_review = load_image_review_index()
     # Image-reviewed topic groups are the final authority; do not re-merge them.
-    ranked = apply_image_review(ranked, image_review)
-    ranked.sort(key=lambda c: c['score'], reverse=True)
+    ranked = apply_image_review(clusters, image_review)
+    ranked = rank_reviewed_clusters(ranked)
     md = render_summary(ranked[:100], load_answer_index(), image_review)
     out = os.path.join(ROOT, "out/notes", "기출핵심요약.md")
     vault = os.path.join(VAULT, "기출핵심요약", "실내건축기능사.md")

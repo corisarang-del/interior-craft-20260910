@@ -1,4 +1,4 @@
-"""TDD: frequency summary top-100 with latest-year weight."""
+"""TDD: frequency summary with separate recency and stable ranking."""
 import os
 import sys
 import unittest
@@ -15,12 +15,11 @@ class TestNormalize(unittest.TestCase):
 
 
 class TestScore(unittest.TestCase):
-    def test_latest_restore_year_weighted(self):
+    def test_latest_is_not_multiplied_into_frequency_score(self):
         old = importance(years=[2017], count=1, keywords=0, latest=False)
         new = importance(years=[2025], count=1, keywords=0, latest=True)
-        self.assertGreater(new, old)
         self.assertEqual(old, 3 + 1)
-        self.assertEqual(new, (3 + 1) * 1.5)
+        self.assertEqual(new, 3 + 1)
 
 
 class TestCluster(unittest.TestCase):

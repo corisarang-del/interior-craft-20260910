@@ -1,7 +1,13 @@
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
-from build_summary import apply_image_review, load_image_review_index, stems_from_round
+from build_summary import (
+    annotate_singletons,
+    apply_image_review,
+    load_image_review_index,
+    reorder_singleton_section,
+    stems_from_round,
+)
 from frequency import cluster_items, rank_clusters
 from inventory import load_inventory
 
@@ -10,9 +16,11 @@ def main():
     items=[]
     for rnd in load_inventory()['rounds']:
         items.extend(stems_from_round(rnd))
-    clusters=apply_image_review(cluster_items(items), load_image_review_index())
-    # No per-year cap; rank by repeated/singleton category and actual frequency.
-    ranked=rank_clusters(clusters)
+    review = load_image_review_index()
+    clusters=apply_image_review(cluster_items(items), review)
+    clusters=annotate_singletons(clusters, items, review)
+    # No per-year cap; preserve baseline singleton candidates and reorder by priority.
+    ranked=reorder_singleton_section(rank_clusters(clusters))
     lines=[]
     for i,c in enumerate(ranked[:100],1):
         lines.append(

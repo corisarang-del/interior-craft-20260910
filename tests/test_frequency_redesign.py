@@ -6,9 +6,13 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
 from frequency import (  # noqa: E402
+    annotate_singletons,
     cluster_items,
     cluster_score_components,
+    extract_concept_key,
     rank_clusters,
+    rank_singletons,
+    singleton_score_components,
 )
 from build_summary import stems_from_round  # noqa: E402
 
@@ -52,11 +56,31 @@ class TestFrequencyRedesign(unittest.TestCase):
         self.assertEqual([x["latest_score"] for x in ranked], [0, 1])
         self.assertEqual([x["frequency_score"] for x in ranked], [4, 4])
 
-    def test_latest_year_does_not_change_frequency_rank(self):
-        old = {"stem": "old", "members": [{"id": "2017-1회#1", "year": 2017, "round": "2017-1회", "num": 1}]}
-        new = {"stem": "new", "members": [{"id": "2025-1회#1", "year": 2025, "round": "2025-1회", "num": 1}]}
+    def test_singleton_score_rewards_related_concepts_and_core_topics(self):
+        basic = {"topic": "조도", "related_years": [2018, 2021], "related_count": 3, "core": 5, "numeric": 1, "utility": 2}
+        obscure = {"topic": "장식 세부용어", "related_years": [], "related_count": 0, "core": 1, "numeric": 0, "utility": 0}
+        self.assertGreater(singleton_score_components(basic)["singleton_score"], singleton_score_components(obscure)["singleton_score"])
+
+    def test_singleton_ranking_is_not_by_stable_id_first(self):
+        old = {"stem": "A", "members": [{"id": "2017-1회#1", "year": 2017, "round": "2017-1회", "num": 1}], "related_years": [2018, 2021], "related_count": 3, "core": 5, "numeric": 1, "utility": 2}
+        new = {"stem": "B", "members": [{"id": "2025-1회#1", "year": 2025, "round": "2025-1회", "num": 1}], "related_years": [], "related_count": 0, "core": 1, "numeric": 0, "utility": 0}
         ranked = rank_clusters([new, old])
-        self.assertEqual([x["stable_key"] for x in ranked], ["2017-1회#01", "2025-1회#01"])
+        self.assertEqual(ranked[0]["stable_key"], "2017-1회#01")
+
+    def test_singleton_concept_key_groups_related_terms(self):
+        self.assertEqual(extract_concept_key("조도", "조도의 단위와 정의"), "조도")
+        self.assertEqual(extract_concept_key("고력볼트 접합", "철골구조의 볼트 접합"), "철골·접합")
+
+    def test_annotate_singletons_counts_related_concept_occurrences(self):
+        clusters = [{"stem": "조도", "members": [{"id": "2025-1회#1", "round": "2025-1회", "num": 1, "year": 2025}]}]
+        all_items = [
+            {"id": "2018-1회#2", "round": "2018-1회", "num": 2, "year": 2018, "stem": "조도의 정의"},
+            {"id": "2021-1회#2", "round": "2021-1회", "num": 2, "year": 2021, "stem": "조도 단위"},
+        ]
+        out = annotate_singletons(clusters, all_items, {"2025-1회#1": {"topic": "조도"}})
+        self.assertEqual(out[0]["related_years"], [2018, 2021])
+        self.assertEqual(out[0]["related_count"], 2)
+        self.assertGreater(out[0]["singleton_score"], 0)
 
     def test_2026_sungandang_is_excluded_from_frequency_input(self):
         self.assertEqual(stems_from_round({"source": "sungandang_pdf", "year": 2026, "id": "2026-1회"}), [])

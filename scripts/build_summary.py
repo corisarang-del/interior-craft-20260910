@@ -6,7 +6,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from frequency import normalize_stem, cluster_items, importance, rank_clusters
+from frequency import normalize_stem, cluster_items, importance, annotate_singletons, rank_clusters, rank_singletons, singleton_score_components
 from inventory import load_inventory
 from ocr_frames import parse_num
 
@@ -53,6 +53,16 @@ def load_answer_index():
             if isinstance(info, dict):
                 index[(str(rid), str(num))] = info
     return index
+
+
+def format_singleton_line(cluster):
+    return (
+        f"> **단독 출제 참고**: {cluster.get('concept_key', '기타')} / "
+        f"단독우선점수 {cluster.get('singleton_score', 0)} / "
+        f"관련개념 {cluster.get('related_year_count', 0)}개년·{cluster.get('related_count', 0)}회 / "
+        f"핵심성 {cluster.get('core_score', 0)} / 수치·규정성 {cluster.get('numeric_score', 0)} / "
+        f"활용성 {cluster.get('utility_score', 0)} / 최신점수 {cluster.get('latest_score', 0)}"
+    )
 
 
 def format_frequency_line(cluster):
@@ -188,6 +198,63 @@ def rank_reviewed_clusters(clusters):
     return ranked
 
 
+def reorder_singleton_section(ranked, baseline_ids=None):
+    """Keep the original singleton candidates and reorder only their slots.
+
+    The summary composition is intentionally fixed: reviewed repeated types
+    plus the singleton candidates already selected in the previous summary.
+    This changes order without silently adding arbitrary OCR candidates.
+    No year cap is applied.
+    """
+    if baseline_ids is None:
+        path = os.path.join(META_DIR, 'baseline_singleton_ids.json')
+        if not os.path.isfile(path):
+            return ranked
+        try:
+            baseline_ids = json.load(open(path, encoding='utf-8'))
+        except (OSError, ValueError):
+            return ranked
+    baseline = set(baseline_ids)
+
+    repeated = [c for c in ranked if c.get('category') == '반복 출제 핵심 유형']
+    singleton = []
+    for cluster in ranked:
+        if cluster.get('category') != '단독 출제 참고':
+            continue
+        ids = {f"{m['round']}#{m['num']}" for m in cluster.get('members', [])}
+        if ids & baseline:
+            singleton.append(cluster)
+    return repeated + rank_singletons(singleton)
+
+
+def write_singleton_priority_metadata(ranked, output_path=None):
+    """Persist the selected singleton rankings for audit/reproduction."""
+    rows = []
+    for rank, cluster in enumerate(
+        [c for c in ranked if c.get("category") == "단독 출제 참고"], 1
+    ):
+        member = (cluster.get("members") or [None])[0]
+        if not member:
+            continue
+        rows.append({
+            "rank": rank,
+            "id": f"{member['round']}#{member['num']}",
+            "concept_key": cluster.get("concept_key", "기타"),
+            "singleton_score": cluster.get("singleton_score", 0),
+            "related_years": cluster.get("related_years", []),
+            "related_year_count": cluster.get("related_year_count", 0),
+            "related_count": cluster.get("related_count", 0),
+            "core_score": cluster.get("core_score", 0),
+            "numeric_score": cluster.get("numeric_score", 0),
+            "utility_score": cluster.get("utility_score", 0),
+            "latest_score": cluster.get("latest_score", 0),
+        })
+    path = output_path or os.path.join(META_DIR, "singleton_priority.json")
+    with open(path, "w", encoding="utf-8") as fp:
+        json.dump(rows, fp, ensure_ascii=False, indent=2)
+    return rows
+
+
 def round_year(rid):
     return int(rid.split("-")[0])
 
@@ -283,7 +350,10 @@ def render_summary(ranked, answer_index=None, image_review=None):
             lines.append("> **같은 유형 출제**: " + ", ".join(links))
         else:
             lines.append("> **단독 출제 확인**: " + ", ".join(links))
-        lines.append(format_frequency_line(c))
+        if c.get('category') == '단독 출제 참고':
+            lines.append(format_singleton_line(c))
+        else:
+            lines.append(format_frequency_line(c))
         lines.append(format_member_answers(members, answer_index))
         lines.append("")
     return "\n".join(lines)
@@ -298,7 +368,10 @@ def main():
     image_review = load_image_review_index()
     # Image-reviewed topic groups are the final authority; do not re-merge them.
     ranked = apply_image_review(clusters, image_review)
+    ranked = annotate_singletons(ranked, items, image_review)
     ranked = rank_reviewed_clusters(ranked)
+    ranked = reorder_singleton_section(ranked)
+    write_singleton_priority_metadata(ranked[:100])
     md = render_summary(ranked[:100], load_answer_index(), image_review)
     out = os.path.join(ROOT, "out/notes", "기출핵심요약.md")
     vault = os.path.join(VAULT, "기출핵심요약", "실내건축기능사.md")
